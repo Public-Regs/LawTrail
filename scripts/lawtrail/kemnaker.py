@@ -7,13 +7,22 @@ ini bukan kegagalan, karena bukan setiap peraturan primer wajib ada di sini.
 """
 
 import re
+import time
 
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://jdih.kemnaker.go.id"
 
+# jdih.kemnaker.go.id kadang mengembalikan HTTP 200 dengan hasil pencarian
+# kosong/parsial meski datanya sebenarnya ada (lihat docs/decisions.md,
+# temuan Fase 1) -- bukan error HTTP, jadi tidak tertangkap retry generik di
+# http_client.py. Di sini kita ulangi pencarian itu sendiri sebelum
+# menyimpulkan "tidak ketemu".
+NOT_FOUND_RETRIES = 3
+NOT_FOUND_RETRY_DELAY_SECONDS = 3.0
 
-def find_detail_url(session, nomor, tahun):
+
+def _search_once(session, nomor, tahun):
     expected_slug = f"peraturan-menteri-ketenagakerjaan-nomor-{nomor}-tahun-{tahun}"
     query = f"Peraturan Menteri Ketenagakerjaan Nomor {nomor} Tahun {tahun}"
     response = session.get(f"{BASE_URL}/peraturan", params={"keyword": query})
@@ -23,6 +32,16 @@ def find_detail_url(session, nomor, tahun):
         match = re.search(r"/peraturan/detail/(\d+)/([a-z0-9-]+)$", anchor["href"])
         if match and match.group(2) == expected_slug:
             return int(match.group(1)), f"{BASE_URL}/peraturan/detail/{match.group(1)}/{match.group(2)}"
+    return None, None
+
+
+def find_detail_url(session, nomor, tahun):
+    for attempt in range(1, NOT_FOUND_RETRIES + 1):
+        kemnaker_id, url = _search_once(session, nomor, tahun)
+        if url is not None:
+            return kemnaker_id, url
+        if attempt < NOT_FOUND_RETRIES:
+            time.sleep(NOT_FOUND_RETRY_DELAY_SECONDS)
     return None, None
 
 

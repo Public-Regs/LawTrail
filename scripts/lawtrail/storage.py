@@ -11,6 +11,7 @@ REGULATIONS_DIR = ROOT / "data" / "regulations"
 EDGES_FILE = ROOT / "data" / "edges.json"
 LAST_CHECKED_FILE = ROOT / "data" / "last-checked.json"
 RAW_BPK_DIR = ROOT / "raw" / "bpk"
+CHANGES_DIR = ROOT / "data" / "changes"
 
 
 def _read_json(path, default):
@@ -29,9 +30,27 @@ def _write_json_if_changed(path, data):
     return True
 
 
+def load_regulation(reg_id):
+    return _read_json(REGULATIONS_DIR / f"{reg_id}.json", None)
+
+
+def existing_regulation_ids():
+    return {path.stem for path in REGULATIONS_DIR.glob("*.json")}
+
+
 def save_regulation(reg_id, data):
     """Returns True if the regulation's own data (not counting last-checked) changed."""
     return _write_json_if_changed(REGULATIONS_DIR / f"{reg_id}.json", data)
+
+
+def save_changes_log(date_str, entries):
+    """Overwrites data/changes/{date_str}.json with the full list of entries
+    found in that day's run. Writes nothing if there are no changes at all
+    (no empty files for a no-op day).
+    """
+    if not entries:
+        return False
+    return _write_json_if_changed(CHANGES_DIR / f"{date_str}.json", entries)
 
 
 def save_raw_html(reg_id, html):

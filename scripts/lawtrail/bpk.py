@@ -1,5 +1,6 @@
 """Scraper for peraturan.bpk.go.id (sumber primer)."""
 
+import hashlib
 import re
 from urllib.parse import urljoin
 
@@ -145,6 +146,18 @@ def parse_detail_html(html, page_url, bpk_id):
         },
         "relations": _parse_relations(soup, page_url),
     }
+
+
+def compute_pdf_sha256(session, pdf_url):
+    """Download peraturan PDF-nya sendiri (bukan Abstrak/Risalah) dan hitung
+    hash-nya, untuk deteksi perubahan isi dokumen di Fase 2. PDF Permenaker
+    berukuran kecil (~100-500KB, lihat docs/source-recon.md), jadi aman
+    diunduh tiap scrape dengan jeda sopan yang sudah ada di PoliteSession.
+    """
+    if pdf_url is None:
+        return None
+    response = session.get(pdf_url)
+    return hashlib.sha256(response.content).hexdigest()
 
 
 def fetch_detail(session, bpk_id, slug):

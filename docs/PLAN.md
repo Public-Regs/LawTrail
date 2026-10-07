@@ -24,11 +24,16 @@ Status per fase. Diperbarui setiap fase selesai agar bisa dilanjutkan di sesi ba
 - **Keterbatasan yang ditemukan, perlu diperbaiki di Fase 2**: dari 65 peraturan yang tidak cocok di Kemnaker, sebagian ternyata cocok saat dicek ulang satu-satu manual (misal Permenaker No. 20/2024 dan No. 19/2022) — menunjukkan `kemnaker.find_detail_url()` kadang gagal menemukan hasil yang sebenarnya ada (flaky, bukan konsisten tidak ada). Jangan anggap `pembanding: null` di data saat ini sebagai bukti final "tidak ada di Kemnaker".
 
 ## Fase 2 — Deteksi perubahan dan otomatisasi
-**Status**: Belum dimulai
+**Status**: Selesai (2026-10-07)
 
-- Deteksi dokumen baru, perubahan status/relasi, perubahan hash, dokumen yang hilang; tulis ke `data/changes/`.
-- GitHub Actions terjadwal harian: jalankan scraper, commit otomatis bila ada perubahan, gagal jelas (notifikasi) bila struktur sumber berubah.
-- Selesai bila: simulasi perubahan menghasilkan commit dan log yang benar.
+- **Keputusan desain** (lihat [`docs/decisions.md`](decisions.md)): peraturan yang pernah tersimpan terus dilacak apa pun statusnya sekarang (bukan cuma yang "Berlaku"), supaya transisi status tercatat sebagai perubahan, bukan hilang diam-diam. Hash SHA-256 PDF dihitung tiap scrape untuk deteksi `pdf_berubah`.
+- `lawtrail/changes.py`: bandingkan data lama vs baru → entri `baru`/`status_berubah`/`relasi_berubah`/`pdf_berubah`/`hilang`, ditulis ke `data/changes/{tanggal}.json`. Skema didokumentasikan di [`docs/schema.md`](schema.md). 6 unit test lulus.
+- `run_scrape.py` gagal jelas (exit code 1) kalau 0 peraturan ditemukan di crawl penuh — indikasi struktur situs sumber berubah.
+- `.github/workflows/scrape.yml`: jadwal harian + `workflow_dispatch`, commit otomatis dengan email no-reply kalau `data/`/`raw/` berubah.
+- **Simulasi perubahan diverifikasi**: status satu peraturan diubah manual jadi "Dicabut (simulasi)", scraper dijalankan ulang untuk peraturan itu saja, dan `data/changes/{tanggal}.json` berisi entri `status_berubah` yang benar (sebelum/sesudah) — lalu file simulasi itu dihapus lagi supaya arsip tidak berisi data palsu.
+- **Bug ditemukan & diperbaiki selama simulasi**: deteksi "hilang" sempat salah menandai ratusan peraturan sebagai hilang saat scraper dijalankan dengan `--limit` (karena hanya sebagian daftar yang benar-benar dicek). Sekarang deteksi "hilang" dilewati kalau `--limit` dipakai.
+- **Catatan**: workflow GitHub Actions belum pernah benar-benar dijalankan di GitHub (perlu push ke repo dulu, lihat kendala git CLI di bawah) — hanya diverifikasi logikanya secara lokal.
+- **Gap data yang disengaja (disetujui pemilik proyek)**: 166 regulasi dari scraping penuh Fase 1 (sebelum field `pdf_sha256` ditambah) belum punya hash PDF — hanya 1 (hasil simulasi Fase 2) yang sudah. Dibiarkan dulu demi tidak membebani server BPK/Kemnaker untuk ketiga kalinya dalam sehari; akan terisi otomatis begitu scraper jalan lagi (GitHub Actions terjadwal, atau jalan manual kapan saja).
 
 ## Fase 3 — Situs statis
 **Status**: Belum dimulai

@@ -3,7 +3,13 @@
   "jenis": "Peraturan Menteri Ketenagakerjaan",
   "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 21 Tahun 2022 tentang Sistem Akuntabilitas Kinerja Instansi Pemerintah di Kementerian Ketenagakerjaan",
   "nomor": "21",
-  "pembanding": null,
+  "pembanding": {
+    "id_situs": 2284,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2284/peraturan-menteri-ketenagakerjaan-nomor-21-tahun-2022"
+  },
   "primer": {
     "id_situs": 245527,
     "pdf_url": "https://peraturan.bpk.go.id/Download/301547/Permenaker%2021%20Tahun%202022.pdf",

@@ -70,3 +70,22 @@ File ini dibangkitkan otomatis oleh scraper (bukan ditulis manual) — jangan di
 ```
 
 Satu file, map id → tanggal terakhir dicek. Diupdate setiap kali scraper jalan, terlepas dari apakah isi peraturan berubah atau tidak.
+
+## `data/changes/{tanggal}.json`
+
+Dibangkitkan otomatis oleh `scripts/run_scrape.py` (Fase 2) — satu file per tanggal jalan, hanya ditulis kalau ada perubahan hari itu. Array berisi entri dengan salah satu `type`:
+
+```json
+[
+  { "id": "permenaker-no-5-tahun-2026", "type": "baru", "detail": { "status": "Berlaku" } },
+  { "id": "permenaker-no-11-tahun-2022", "type": "status_berubah", "detail": { "sebelum": "Berlaku", "sesudah": "Dicabut" } },
+  { "id": "permenaker-no-8-tahun-2022", "type": "relasi_berubah", "detail": { "ditambahkan": [...], "dihapus": [...] } },
+  { "id": "permenaker-no-3-tahun-2021", "type": "pdf_berubah", "detail": { "sebelum": "sha256...", "sesudah": "sha256..." } },
+  { "id": "permenaker-no-9-tahun-2015", "type": "hilang", "detail": {} }
+]
+```
+
+Catatan:
+- Begitu sebuah peraturan pernah tersimpan di `data/regulations/`, ia **terus dilacak** di scrape berikutnya apa pun statusnya sekarang (lihat [`docs/decisions.md`](decisions.md)) — jadi transisi status tercatat sebagai `status_berubah`, bukan file yang hilang diam-diam.
+- `hilang` dipakai khusus untuk peraturan yang sudah pernah tersimpan tapi sama sekali tidak muncul lagi di daftar sumber (kemungkinan dihapus dari situs) — bukan untuk peraturan yang sekadar berubah status.
+- `pdf_berubah` hanya dicatat kalau kedua hash (`sebelum` dan `sesudah`) berhasil dihitung; kalau salah satu gagal diunduh, tidak dianggap perubahan.

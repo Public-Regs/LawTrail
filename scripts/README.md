@@ -22,11 +22,19 @@ Opsi:
 
 Scraper akan:
 1. Mengambil daftar semua Peraturan Menteri Ketenagakerjaan dari `peraturan.bpk.go.id` (filter `jenis=105`).
-2. Untuk tiap peraturan yang statusnya "Berlaku": ambil detail, simpan HTML mentah ke `../raw/bpk/{id}.html`, cross-check status ke Kemnaker (kecuali `--no-kemnaker`), tulis `../data/regulations/{id}.json`.
-3. Membangun ulang `../data/edges.json` dari seluruh relasi yang tersimpan.
-4. Mencatat tanggal pengambilan ke `../data/last-checked.json`.
+2. Untuk peraturan yang statusnya "Berlaku" **atau** sudah pernah tersimpan sebelumnya (supaya transisi status tetap terlacak, lihat `docs/decisions.md`): ambil detail, hitung hash SHA-256 PDF-nya, simpan HTML mentah ke `../raw/bpk/{id}.html`, cross-check status ke Kemnaker (kecuali `--no-kemnaker`), tulis `../data/regulations/{id}.json`.
+3. Membandingkan data lama vs baru per peraturan dan menulis entri perubahan (`baru`/`status_berubah`/`relasi_berubah`/`pdf_berubah`/`hilang`) ke `../data/changes/{tanggal}.json` (hanya dibuat kalau ada perubahan).
+4. Membangun ulang `../data/edges.json` dari seluruh relasi yang tersimpan.
+5. Mencatat tanggal pengambilan ke `../data/last-checked.json`.
+6. Keluar dengan exit code 1 kalau tidak ada satu pun peraturan ditemukan di crawl penuh (indikasi struktur situs berubah) — supaya GitHub Actions menandai run sebagai gagal.
 
 File JSON hanya ditulis ulang bila isinya (selain `last-checked.json`) benar-benar berubah — menjalankan ulang scraper tanpa perubahan di sumber seharusnya tidak menghasilkan diff apa pun di `data/regulations/`.
+
+**Catatan soal `--limit`**: deteksi "hilang" (peraturan yang sudah tidak muncul di sumber) secara sengaja dilewati saat `--limit` dipakai, karena hanya sebagian daftar yang benar-benar dicek — tanpa ini, peraturan yang belum dikunjungi akan keliru tercatat "hilang".
+
+## Otomatisasi (GitHub Actions)
+
+`.github/workflows/scrape.yml` menjalankan scraper setiap hari (`workflow_dispatch` juga tersedia untuk trigger manual) dan commit otomatis ke `data/` + `raw/` kalau ada perubahan, memakai email no-reply (lihat `docs/decisions.md`). Workflow ini belum pernah dijalankan sungguhan di GitHub — perlu repo ini di-push dulu.
 
 ## Menjalankan test
 
@@ -38,5 +46,5 @@ Test parser memakai fixture HTML nyata di `tests/fixtures/` (hasil pengambilan s
 
 ## Catatan
 
-- Permenaker yang statusnya bukan "Berlaku" dilewati di Fase 1 ini (lihat `docs/decisions.md`) — scraper tetap mencatatnya di relasi target (misal `mencabut`) meski file JSON-nya sendiri tidak dibuat.
-- Kemnaker (`jdih.kemnaker.go.id`) dicocokkan lewat pencarian kata kunci + nomor/tahun; kalau tidak ketemu, `pembanding` diisi `null` (bukan error).
+- Permenaker yang statusnya bukan "Berlaku" dan belum pernah tersimpan sebelumnya tidak diambil — tapi begitu tersimpan sekali, perubahan status berikutnya (termasuk jadi dicabut) tetap diupdate dan dicatat di `data/changes/`.
+- Kemnaker (`jdih.kemnaker.go.id`) dicocokkan lewat pencarian kata kunci + nomor/tahun, dengan retry 3x kalau tidak ketemu (server kadang mengembalikan hasil kosong sesaat). Kalau tetap tidak ketemu, `pembanding` diisi `null` (bukan error) — mayoritas kasus ini genuinely tidak terindeks di Kemnaker, bukan bug (lihat `docs/decisions.md`).
