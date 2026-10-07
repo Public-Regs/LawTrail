@@ -36,10 +36,14 @@ Status per fase. Diperbarui setiap fase selesai agar bisa dilanjutkan di sesi ba
 - **Gap data yang disengaja (disetujui pemilik proyek)**: 166 regulasi dari scraping penuh Fase 1 (sebelum field `pdf_sha256` ditambah) belum punya hash PDF — hanya 1 (hasil simulasi Fase 2) yang sudah. Dibiarkan dulu demi tidak membebani server BPK/Kemnaker untuk ketiga kalinya dalam sehari; akan terisi otomatis begitu scraper jalan lagi (GitHub Actions terjadwal, atau jalan manual kapan saja).
 
 ## Fase 3 — Situs statis
-**Status**: Belum dimulai
+**Status**: Selesai (2026-10-07)
 
-- Daftar peraturan, halaman detail (metadata, status, relasi, riwayat, tautan sumber), pencarian Pagefind, RSS perubahan, responsif di ponsel.
-- Selesai bila: situs bisa di-build lokal dan di CI, dipakai tanpa penjelasan.
+- Situs Astro di [`site/`](../site/): daftar peraturan (`/`), halaman detail per peraturan (`/peraturan/{id}/` — metadata, status primer+pembanding, relasi berlink, riwayat perubahan, tautan sumber+PDF, tanggal terakhir dicek), log perubahan gabungan (`/perubahan/`), RSS perubahan (`/rss.xml`), pencarian Pagefind di halaman daftar. CSS polos responsif (tanpa framework besar).
+- Data dibaca langsung dari `../data/` lewat `site/src/lib/data.js` — tidak ada duplikasi data ke dalam `site/`.
+- `npm run build` dari `site/` menghasilkan 168 halaman statis + indeks Pagefind; diverifikasi lokal dengan `npm run preview` (index, 1 halaman detail, `/perubahan/`, `/rss.xml`, aset Pagefind semua merespons 200).
+- `.github/workflows/build-site.yml` — build CI (belum deploy, itu Fase 5), diverifikasi logikanya lokal (belum pernah jalan sungguhan di GitHub, sama seperti workflow Fase 2 — masih terhalang git CLI).
+- **Bug build-time yang ditemukan & diperbaiki**: `src/lib/data.js` awalnya memakai `import.meta.url` untuk menemukan folder `data/` — bekerja di `astro dev` tapi diam-diam mengembalikan 0 peraturan saat `astro build` (Vite membundel ulang modul, jadi `import.meta.url` tidak lagi menunjuk ke lokasi asli). Akibatnya seluruh route `/peraturan/{id}/` hilang dari hasil build tanpa pesan error apa pun. Diganti ke resolusi berbasis `process.cwd()`. Lihat catatan di `site/README.md`.
+- **Belum pasti**: domain final belum ada (`astro.config.mjs` masih placeholder `lawtrail.example`, dipakai RSS) — akan diisi di Fase 5 saat hosting diputuskan.
 
 ## Fase 4 — Peta relasi
 **Status**: Belum dimulai

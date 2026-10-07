@@ -1,0 +1,124 @@
+---
+import Base from "../../layouts/Base.astro";
+import {
+  getAllRegulations,
+  getRegulation,
+  getLastChecked,
+  getChangesForRegulation,
+  RELATION_LABELS,
+  CHANGE_LABELS,
+} from "../../lib/data.js";
+
+export function getStaticPaths() {
+  return getAllRegulations().map((reg) => ({ params: { id: reg.id } }));
+}
+
+const { id } = Astro.params;
+const reg = getRegulation(id);
+if (!reg) {
+  return Astro.redirect("/404");
+}
+
+const lastChecked = getLastChecked(id);
+const history = getChangesForRegulation(id);
+
+const relationsByType = {};
+for (const rel of reg.relations ?? []) {
+  (relationsByType[rel.type] ??= []).push(rel);
+}
+---
+
+<Base title={`Permenaker No. ${reg.nomor} Tahun ${reg.tahun}`} description={reg.judul}>
+  <p><a href="/">&larr; Daftar peraturan</a></p>
+
+  <h1>
+    Permenaker No. {reg.nomor} Tahun {reg.tahun}{" "}
+    <span class={`badge ${reg.status === "Berlaku" ? "status-berlaku" : "status-lain"}`}>
+      {reg.status}
+    </span>
+  </h1>
+  <p>{reg.judul}</p>
+
+  <dl class="metadata">
+    <dt>Tempat penetapan</dt>
+    <dd>{reg.tempat_penetapan ?? "—"}</dd>
+    <dt>Tanggal penetapan</dt>
+    <dd>{reg.tanggal_penetapan ?? "—"}</dd>
+    <dt>Tanggal pengundangan</dt>
+    <dd>{reg.tanggal_pengundangan ?? "—"}</dd>
+    <dt>Tanggal berlaku</dt>
+    <dd>{reg.tanggal_berlaku ?? "—"}</dd>
+    <dt>Subjek</dt>
+    <dd>{(reg.subjek ?? []).join(", ") || "—"}</dd>
+    <dt>Sumber pengundangan</dt>
+    <dd>{reg.sumber_pengundangan ?? "—"}</dd>
+  </dl>
+
+  <section class="sources">
+    <h2>Sumber</h2>
+    <ul>
+      <li>
+        <strong>Primer (peraturan.bpk.go.id):</strong>{" "}
+        <a href={reg.primer.url} target="_blank" rel="noopener">{reg.primer.url}</a>
+        {reg.primer.pdf_url && (
+          <>
+            {" "}·{" "}
+            <a href={reg.primer.pdf_url} target="_blank" rel="noopener">Unduh PDF</a>
+          </>
+        )}
+      </li>
+      {reg.pembanding ? (
+        <li>
+          <strong>Pembanding (jdih.kemnaker.go.id):</strong>{" "}
+          <a href={reg.pembanding.url} target="_blank" rel="noopener">{reg.pembanding.url}</a>
+          {" "}— status di sana: <span class="badge">{reg.pembanding.status ?? "tidak diketahui"}</span>
+          {reg.pembanding.status_cocok === false && (
+            <span class="badge status-lain"> berbeda dengan status di BPK</span>
+          )}
+        </li>
+      ) : (
+        <li><strong>Pembanding (jdih.kemnaker.go.id):</strong> tidak ditemukan peraturan yang cocok.</li>
+      )}
+    </ul>
+    <p>
+      <small>Terakhir dicek: {lastChecked ?? "tidak diketahui"}.</small>
+    </p>
+  </section>
+
+  <section class="relations">
+    <h2>Relasi</h2>
+    {Object.keys(relationsByType).length === 0 && <p>Tidak ada relasi tercatat.</p>}
+    {Object.entries(relationsByType).map(([type, rels]) => (
+      <div>
+        <h3>{RELATION_LABELS[type] ?? type}</h3>
+        <ul>
+          {rels.map((rel) => (
+            <li>
+              {rel.target_id ? (
+                <a href={`/peraturan/${rel.target_id}/`}>{rel.target_title}</a>
+              ) : (
+                <span>{rel.target_title}</span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+
+  <section class="history">
+    <h2>Riwayat perubahan tercatat</h2>
+    {history.length === 0 ? (
+      <p>Belum ada perubahan tercatat sejak peraturan ini masuk arsip.</p>
+    ) : (
+      <ul class="timeline">
+        {history.map((entry) => (
+          <li>
+            <div class="change-date">{entry.date}</div>
+            <div>{CHANGE_LABELS[entry.type] ?? entry.type}</div>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</Base>

@@ -1,0 +1,44 @@
+---
+import "../styles/global.css";
+
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} · LawTrail` : "LawTrail";
+---
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href="/favicon.svg" />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="/">LawTrail</a>
+        <nav>
+          <a href="/">Daftar Peraturan</a>
+          <a href="/perubahan/">Riwayat Perubahan</a>
+          <a href="/rss.xml">RSS</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          LawTrail adalah arsip tidak resmi, dibangun otomatis dari
+          <a href="https://peraturan.bpk.go.id" target="_blank" rel="noopener">peraturan.bpk.go.id</a>
+          dan
+          <a href="https://jdih.kemnaker.go.id" target="_blank" rel="noopener">jdih.kemnaker.go.id</a>.
+          Bukan nasihat hukum — selalu rujuk sumber resmi untuk kepastian status peraturan.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
