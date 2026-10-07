@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-13-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 13 Tahun 2022 tentang Penanggulangan Tuberkulosis di Tempat Kerja",
+  "nomor": "13",
+  "pembanding": {
+    "id_situs": 2225,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2225/peraturan-menteri-ketenagakerjaan-nomor-13-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 231407,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264905/Permenaker%20Nomor%2013%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231407/permenaker-no-13-tahun-2022"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - KESEHATAN"
+  ],
+  "sumber_pengundangan": "BN.2022/No.967, peraturan.go.id: 6 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-09-22",
+  "tanggal_penetapan": "2022-09-21",
+  "tanggal_pengundangan": "2022-09-22",
+  "tempat_penetapan": "Jakarta"
+}

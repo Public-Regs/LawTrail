@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-6-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 6 Tahun 2022 tentang Organisasi dan Tata Kerja Sekretariat Badan Nasional Sertifikasi Profesi",
+  "nomor": "6",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 231397,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264851/Permenaker%20Nomor%206%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231397/permenaker-no-6-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-21-tahun-2018",
+      "target_title": "Permenaker No. 21 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/146313/permenaker-no-21-tahun-2018",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "STRUKTUR ORGANISASI - JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN.2022/No.674, peraturan.go.id: 10 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-07-19",
+  "tanggal_penetapan": "2022-07-06",
+  "tanggal_pengundangan": "2022-07-19",
+  "tempat_penetapan": "Jakarta"
+}

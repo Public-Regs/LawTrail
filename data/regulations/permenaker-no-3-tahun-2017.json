@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-3-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 3 Tahun 2017 tentang Petunjuk Teknis Jabatan Fungsional Pengantar Kerja dan Angka Kreditnya",
+  "nomor": "3",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 145518,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137325/Kemnaker%20No.%203%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145518/permenaker-no-3-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor KEP.04/MEN/2001 tentang Petunjuk Teknis Jabatan Fungsional Pengantar Kerja dan Angka Kreditnya",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN.2017/No.633, jdih.kemnaker.go.id : 6 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-05-08",
+  "tanggal_penetapan": "2017-04-27",
+  "tanggal_pengundangan": "2017-05-08",
+  "tempat_penetapan": "Jakarta"
+}

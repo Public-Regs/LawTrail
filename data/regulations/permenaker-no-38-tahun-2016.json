@@ -1,0 +1,46 @@
+{
+  "id": "permenaker-no-38-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 38 Tahun 2016 tentang Keselamatan dan Kesehatan Kerja Pesawat Tenaga dan Produksi",
+  "nomor": "38",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146207,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138027/Kemnaker%20No.%2038%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.04/MEN/1985 tentang Pesawat Tenaga dan Produksi",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Dirjen Pembinaan dan Pengawasan Ketenagakerjaan Nomor KEP.75/PPK/XII/2013 tentang Petunjuk Teknis Pembinaan Calon Ahli Keselamatan dan Kesehatan kerja Bidang Pesawat uang dan Bejana Tekan, Pesawat Angkat-Angkut, dan Pesawat tenaga dan produksi, khusus yang Mengatur Pembinaan Calon Ahli Keselamatan dan Kesehatan Kerja bidang Pesawat Tenaga dan Produksi",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Surat Edaran Dirjen Pembinaan dan Pengawasan Ketenagakerjaan Nomor SE.NO.01/DJPPK/VI/2009 tentang Petunjuk Teknis Pelaksanaan Pembinaan dan Pengujian Lisensi Keselamatan dan Kesehatan Kerja bagi Petugas dan Operator Pesawat Uap, Pesawat Tenaga dan Produksi, Pesawat Angkat dan Angkut",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN - TRANSPORTASI DARAT / LAUT / UDARA"
+  ],
+  "sumber_pengundangan": "BN.2016/No.1989, jdih.kemnaker.go.id : 50 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-12-27",
+  "tanggal_penetapan": "2016-12-27",
+  "tanggal_pengundangan": "2016-12-27",
+  "tempat_penetapan": "Jakarta"
+}

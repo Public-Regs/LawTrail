@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-13-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 13 Tahun 2021 tentang Tata Cara Pengangkatan, Pemberhentian, dan Penggantian Anggota Dewan Pengupahan, dan Tata Kerja Dewan Pengupahan",
+  "nomor": "13",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195981,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189820/Permenaker%20Nomor%2013%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195981/permenaker-no-13-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor: PER.03/MEN/I/2005 tentang Tata Cara Pengusulan Keanggotaan Dewan Pengupahan Nasional",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PEMBENTUKAN, PERUBAHAN, DAN PEMBUBARAN KOMISI / KOMITE / BADAN / DEWAN / STAF KHUSUS / TIM / PANITIA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2021/No.846, jdih.kemnaker.go.id : 21 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-07-27",
+  "tanggal_penetapan": "2021-07-23",
+  "tanggal_pengundangan": "2021-07-27",
+  "tempat_penetapan": "Jakarta"
+}

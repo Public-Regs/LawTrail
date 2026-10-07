@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-11-tahun-2018",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2018 tentang Pelaporan Harta Kekayaan bagi Penyelengara Negara dan Aparatur Sipil Negara di Kementerian Ketenagakerjaan",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 1562,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1562/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2018"
+  },
+  "primer": {
+    "id_situs": 146302,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138119/Kemnaker%20No.%2011%20Tahun%202018.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146302/permenaker-no-11-tahun-2018"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenaker Nomor KEP.106/MEN-SJ/IV/2015 tentang Penetapan Wajib Lapor bagi Pejabat Eselon III dan Eselon IV Kementerian Ketenagakerjaan untuk Menyampaikan Laporan Harta Kekayaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - TINDAK PIDANA KORUPSI, PENCEGAHAN KORUPSI"
+  ],
+  "sumber_pengundangan": "BN.2018/No.893, jdih.kemnaker.go.id : 11 hlm.",
+  "tahun": 2018,
+  "tanggal_berlaku": "2018-07-16",
+  "tanggal_penetapan": "2018-07-16",
+  "tanggal_pengundangan": "2018-07-16",
+  "tempat_penetapan": "Jakarta"
+}

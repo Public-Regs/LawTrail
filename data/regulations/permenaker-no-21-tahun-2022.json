@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-21-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 21 Tahun 2022 tentang Sistem Akuntabilitas Kinerja Instansi Pemerintah di Kementerian Ketenagakerjaan",
+  "nomor": "21",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 245527,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/301547/Permenaker%2021%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/245527/permenaker-no-21-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi  Nomor 3 Tahun 2014 tentang Pedoman Evaluasi Akuntabilitas Kinerja Instansi Pemerintah di Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Ketenagakerjaan Nomor 1 Tahun 2018 tentang Sistem Akuntabilitas Kinerja Instansi Pemerintah di Kementerian Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - SISTEM PENGENDALIAN INTERN"
+  ],
+  "sumber_pengundangan": "BN.2022/No.1322, jdih.kemnaker.go.id: 16 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-12-27",
+  "tanggal_penetapan": "2022-12-26",
+  "tanggal_pengundangan": "2022-12-27",
+  "tempat_penetapan": "Jakarta"
+}

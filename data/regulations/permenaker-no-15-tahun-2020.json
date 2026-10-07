@@ -1,0 +1,60 @@
+{
+  "id": "permenaker-no-15-tahun-2020",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 15 Tahun 2020 tentang Satu Data Ketenagakerjaan",
+  "nomor": "15",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 163390,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/156137/Permen_15_2020.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/163390/permenaker-no-15-tahun-2020"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Keija dan Transmigrasi Nomor KEP.250/MEN/XII/2008 tentang Klasifikasi dan Karakteristik Data dari Jenis Informasi\r\nKetenagakeijaan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Keija dan Transmigrasi Nomor 1 Tahun 2014 tentang Perubahan atas Keputusan Menteri Tenaga Keija dan Transmigrasi Nomor KEP.250/MEN/xn/2008 tentang Klasifikasi dan Karakteristik Data dari Jenis Informasi Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Keija dan Transmigrasi Nomor PER.01/MEN/I/2009 tentang Pedoman Penggunaan Metoda Statistika Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Keija dan Transmigrasi Nomor PER.03/MEN/II/2009 tentang Pedoman Penyajian Informasi Ketenagakeijaan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Keija dan Transmigrasi Nomor 11 Tahun 2009 tentang Tata Cara Pemantauan dan Evaluasi Pengelolaan Data dan informasi Ketenagakeijaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PERS, POS, DAN PERIKLANAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2020/No.1008, jdih.kemnaker.go.id : 23 hlm.",
+  "tahun": 2020,
+  "tanggal_berlaku": "2020-09-08",
+  "tanggal_penetapan": "2020-09-07",
+  "tanggal_pengundangan": "2020-09-08",
+  "tempat_penetapan": "Jakarta"
+}

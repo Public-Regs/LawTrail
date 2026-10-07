@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-17-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 17 Tahun 2016 tentang Tata Cara Perizinan dan Pendaftaran Lembaga Pelatihan Kerja",
+  "nomor": "17",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146126,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252213/Kemnaker%20No.%2017%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146126/permenaker-no-17-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.17/MEN/VII/2007 tentang Tata Cara Perizinan dan Pendaftaran Lembaga Pelatihan Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PENDIDIKAN - PERIZINAN, PELAYANAN PUBLIK"
+  ],
+  "sumber_pengundangan": "BN.2016/No.712, jdih.kemnaker.go.id : 21 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-05-09",
+  "tanggal_penetapan": "2016-05-09",
+  "tanggal_pengundangan": "2016-05-09",
+  "tempat_penetapan": "Jakarta"
+}

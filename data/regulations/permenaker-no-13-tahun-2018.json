@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-13-tahun-2018",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 13 Tahun 2018 tentang Perubahan Kedua atas Peraturan Menteri Ketenagakerjaan Nomor 19 Tahun 2017 tentang Pedoman Penyaluran Bantuan Pemerintah di Kementerian Ketenagakerjaan",
+  "nomor": "13",
+  "pembanding": {
+    "id_situs": 1569,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Tidak Berlaku",
+    "status_cocok": false,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1569/peraturan-menteri-ketenagakerjaan-nomor-13-tahun-2018"
+  },
+  "primer": {
+    "id_situs": 145960,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251663/Kemnaker%20No.%2013%20Tahun%202018.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145960/permenaker-no-13-tahun-2018"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-19-tahun-2017",
+      "target_title": "Permenaker No. 19 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/145062/permenaker-no-19-tahun-2017",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - BANTUAN, SUMBANGAN, BENCANA / KEBENCANAAN, DAN PENANGGULANGAN BENCANA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2018/No.1449, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2018,
+  "tanggal_berlaku": "2018-10-18",
+  "tanggal_penetapan": "2018-09-20",
+  "tanggal_pengundangan": "2018-10-18",
+  "tempat_penetapan": "Jakarta"
+}

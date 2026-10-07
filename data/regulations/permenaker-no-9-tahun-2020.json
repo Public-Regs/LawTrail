@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-9-tahun-2020",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 9 Tahun 2020 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 4 Tahun 2020 tentang Pelaksanaan Tugas Pembantuan Kementerian Ketenagakerjaan Tahun Anggaran 2020",
+  "nomor": "9",
+  "pembanding": {
+    "id_situs": 1669,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1669/peraturan-menteri-ketenagakerjaan-nomor-9-tahun-2020"
+  },
+  "primer": {
+    "id_situs": 146440,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138267/Permenaker%20Nomor%209%20Tahun%202020.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146440/permenaker-no-9-tahun-2020"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-4-tahun-2020",
+      "target_title": "Permenaker No. 4 Tahun 2020",
+      "target_url": "https://peraturan.bpk.go.id/Details/145065/permenaker-no-4-tahun-2020",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - PELIMPAHAN KEWENANGAN / PENUGASAN PEJABAT NEGARA / PENUGASAN BUMN"
+  ],
+  "sumber_pengundangan": "BN.2020/No.691, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2020,
+  "tanggal_berlaku": "2020-07-01",
+  "tanggal_penetapan": "2020-06-30",
+  "tanggal_pengundangan": "2020-07-01",
+  "tempat_penetapan": "Jakarta"
+}

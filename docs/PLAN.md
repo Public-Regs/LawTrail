@@ -8,15 +8,20 @@ Status per fase. Diperbarui setiap fase selesai agar bisa dilanjutkan di sesi ba
 - Pengintaian jdih.kemnaker.go.id dan peraturan.bpk.go.id: lihat [`docs/source-recon.md`](source-recon.md).
 - Keputusan sumber primer/pembanding dan kontak scraper: lihat [`docs/decisions.md`](decisions.md).
 - Kerangka repo (README, LICENSE, CLAUDE.md, struktur folder) dibuat.
-- **Belum pasti, perlu dicek di awal Fase 1**: apakah jdih.kemnaker.go.id benar-benar tidak punya PDF teks lengkap Permenaker (lihat "Hal yang masih terbuka" di source-recon.md).
+- Verifikasi manual dengan `requests`/`pypdf` Python (bukan hanya alat ringkas AI): kedua situs sama-sama punya PDF teks lengkap Permenaker; terdeteksi juga bahwa Kemnaker gagal diakses dari klien HTTP .NET (bukan masalah di sisi situs). Detail di source-recon.md.
+- **Belum pasti, perlu dicek di Fase 1**: kata "RANCANGAN" muncul di baris pertama PDF Permenaker dari Kemnaker yang disampel — perlu dicek di beberapa Permenaker lain.
 
 ## Fase 1 — Skema data dan scraper
-**Status**: Belum dimulai
+**Status**: Selesai (2026-10-07)
 
-- Rancang skema JSON peraturan dan `data/edges.json` (usulkan dulu, tunggu persetujuan pemilik proyek).
-- Verifikasi manual temuan Fase 0 (lihat catatan reliabilitas di source-recon.md) sebelum menulis parser.
-- Scraper untuk daftar dan halaman detail, simpan `raw/` dan `data/` terpisah, dengan cache dan retry sopan (jeda ≥2 detik, patuh robots.txt).
-- Selesai bila: seluruh target terambil, dan menjalankan ulang scraper tanpa perubahan di sumber tidak menghasilkan perubahan file apa pun.
+- Skema `data/regulations/{id}.json` dan `data/edges.json` dirancang dan disetujui — lihat [`docs/schema.md`](schema.md) dan [`docs/decisions.md`](decisions.md).
+- Verifikasi manual (bukan cuma ringkasan AI) dilakukan dengan `requests`/`BeautifulSoup`/`pypdf` langsung terhadap HTML dan PDF nyata — lihat bagian "Verifikasi manual" di [`docs/source-recon.md`](source-recon.md).
+- Scraper Python di [`scripts/`](../scripts/): `lawtrail/bpk.py` (crawler daftar + parser detail BPK), `lawtrail/kemnaker.py` (cross-check status, best-effort), `lawtrail/storage.py` (penulisan idempoten), `run_scrape.py` (CLI). Jeda ≥2 detik antar request dan retry ada di `lawtrail/http_client.py`.
+- Test parser (`scripts/tests/`) memakai fixture HTML nyata, bukan HTML buatan — 4/4 lulus.
+- Idempotensi terverifikasi pada subset (3 peraturan): menjalankan ulang scraper tanpa perubahan di sumber menghasilkan 0 file berubah.
+- **Scraping penuh selesai dijalankan** (sekali, manual, bukan GitHub Actions — itu Fase 2): 283 Permenaker diperiksa, 166 berstatus "Berlaku" tersimpan di `data/regulations/`, 127 relasi di `data/edges.json`, cross-check Kemnaker cocok untuk 101/166.
+- **Temuan nyata dari cross-check**: 7 peraturan punya status berbeda antara BPK ("Berlaku") dan Kemnaker ("Tidak Berlaku") — lihat daftar di [`docs/decisions.md`](decisions.md). Ini bukan bug, tapi perbedaan data antar sumber yang perlu ditampilkan apa adanya di situs nanti (sesuai aturan bahasa netral).
+- **Keterbatasan yang ditemukan, perlu diperbaiki di Fase 2**: dari 65 peraturan yang tidak cocok di Kemnaker, sebagian ternyata cocok saat dicek ulang satu-satu manual (misal Permenaker No. 20/2024 dan No. 19/2022) — menunjukkan `kemnaker.find_detail_url()` kadang gagal menemukan hasil yang sebenarnya ada (flaky, bukan konsisten tidak ada). Jangan anggap `pembanding: null` di data saat ini sebagai bukti final "tidak ada di Kemnaker".
 
 ## Fase 2 — Deteksi perubahan dan otomatisasi
 **Status**: Belum dimulai

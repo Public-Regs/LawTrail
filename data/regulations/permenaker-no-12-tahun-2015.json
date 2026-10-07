@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-12-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 12 Tahun 2015 tentang Keselamatan dan Kesehatan Kerja Listrik di Tempat Kerja",
+  "nomor": "12",
+  "pembanding": {
+    "id_situs": 610,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-ketenagakerjaan-nomor-12-tahun-2015"
+  },
+  "primer": {
+    "id_situs": 145984,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251846/Kemnaker%20No.%2012%20Tahun%202015.PDF",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-33-tahun-2015",
+      "target_title": "Permenaker No. 33 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146032/permenaker-no-33-tahun-2015",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor KEP.75/MEN/2002 tentang Pemberlakuan Standar Nasional Indonesia Nomor SNI 04-0225-2000 mengenai Persyaratan Umum Instalasi Listrik 2000 (PUIL 2000) di Tempat Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2015/No.540, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-04-16",
+  "tanggal_penetapan": "2015-04-09",
+  "tanggal_pengundangan": "2015-04-16",
+  "tempat_penetapan": "Jakarta"
+}

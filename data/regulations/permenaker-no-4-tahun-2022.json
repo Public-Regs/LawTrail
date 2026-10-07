@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-4-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 4 Tahun 2022 tentang Tata Cara dan Persyaratan Pembayaran Manfaat Jaminan Hari Tua",
+  "nomor": "4",
+  "pembanding": {
+    "id_situs": 2181,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2181/peraturan-menteri-ketenagakerjaan-nomor-4-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 210568,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/204689/Permenaker%20Nomor%204%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/210568/permenaker-no-4-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-2-tahun-2022",
+      "target_title": "Permenaker No. 2 Tahun 2022",
+      "target_url": "https://peraturan.bpk.go.id/Details/197508/permenaker-no-2-tahun-2022",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-19-tahun-2015",
+      "target_title": "Permenaker No. 19 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145988/permenaker-no-19-tahun-2015",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ASURANSI - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2022/No.451, https://jdih.kemnaker.go.id/: 12 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-04-26",
+  "tanggal_penetapan": "2022-04-26",
+  "tanggal_pengundangan": "2022-04-26",
+  "tempat_penetapan": "Jakarta"
+}

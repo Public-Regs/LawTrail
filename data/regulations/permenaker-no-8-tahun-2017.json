@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-8-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 8 Tahun 2017 tentang Standar Balai Latihan Kerja",
+  "nomor": "8",
+  "pembanding": {
+    "id_situs": 1501,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1501/peraturan-menteri-ketenagakerjaan-nomor-8-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 145521,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251584/Kemnaker%20No.%208%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145521/permenaker-no-8-tahun-2017"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PENDIDIKAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.1108, jdih.kemnaker.go.id : 11 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-08-08",
+  "tanggal_penetapan": "2017-08-08",
+  "tanggal_pengundangan": "2017-08-08",
+  "tempat_penetapan": "Jakarta"
+}

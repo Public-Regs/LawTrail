@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-15-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 15 Tahun 2021 tentang Tata Cara Pemberian Manfaat Jaminan Kehilangan Pekerjaan",
+  "nomor": "15",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195983,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189822/Permenaker%20Nomor%2015%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195983/permenaker-no-15-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-2-tahun-2025",
+      "target_title": "Permenaker No. 2 Tahun 2025",
+      "target_url": "https://peraturan.bpk.go.id/Details/316794/permenaker-no-2-tahun-2025",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2021/No.864, jdih.kemnaker.go.id : 20 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-07-28",
+  "tanggal_penetapan": "2021-07-28",
+  "tanggal_pengundangan": "2021-07-28",
+  "tempat_penetapan": "Jakarta"
+}

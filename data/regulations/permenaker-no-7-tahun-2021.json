@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-7-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 7 Tahun 2021 tentang Tata Cara Pendaftaran Peserta dan Pelaksanaan Rekomposisi Iuran Dalam Program Jaminan Kehilangan Pekerjaan",
+  "nomor": "7",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 171227,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/164391/No%207%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/171227/permenaker-no-7-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-3-tahun-2025",
+      "target_title": "Permenaker No. 3 Tahun 2025",
+      "target_url": "https://peraturan.bpk.go.id/Details/316798/permenaker-no-3-tahun-2025",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PROGRAM, RENCANA PEMBANGUNAN DAN RENCANA KERJA"
+  ],
+  "sumber_pengundangan": "BN 2021/NO. 300; PERATURAN.GO.ID: 14 HLM",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-04-01",
+  "tanggal_penetapan": "2021-03-31",
+  "tanggal_pengundangan": "2021-04-01",
+  "tempat_penetapan": "Jakarta"
+}

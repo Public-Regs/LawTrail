@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-28-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 28 Tahun 2015 tentang Tata Cara Pengangkatan dan Pemberhentian Dokter Penasehat",
+  "nomor": "28",
+  "pembanding": {
+    "id_situs": 1139,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1139/peraturan-menteri-ketenagakerjaan-nomor-28-tahun-2015"
+  },
+  "primer": {
+    "id_situs": 146006,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251938/Kemnaker%20No.%2028%20Tahun%202015.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146006/permenaker-no-28-tahun-2015"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.17/MEN/XI/2008 tentang Tata Cara Pengangkatan, Pemberhentian, dan Tata Kerja Dokter Penasehat",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2015/No.1512, jdih.kemnaker.go.id : 11 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-10-15",
+  "tanggal_penetapan": "2015-10-13",
+  "tanggal_pengundangan": "2015-10-15",
+  "tempat_penetapan": "Jakarta"
+}

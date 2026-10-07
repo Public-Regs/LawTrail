@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-13-tahun-2026-pedoman-penyaluran-bantuan-pemerintah-di-lingkungan",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 13 Tahun 2026 tentang Pedoman Penyaluran Bantuan Pemerintah di Lingkungan Kementerian Ketenagakerjaan Tahun Anggaran 2027",
+  "nomor": "13",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 357427,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/421463/permenaker-no-13-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/357427/permenaker-no-13-tahun-2026-pedoman-penyaluran-bantuan-pemerintah-di-lingkungan"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2025",
+      "target_title": "Permenaker No. 10 Tahun 2025",
+      "target_url": "https://peraturan.bpk.go.id/Details/332125/permenaker-no-10-tahun-2025",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "BANTUAN, SUMBANGAN, BENCANA / KEBENCANAAN, DAN PENANGGULANGAN BENCANA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN 2026 (658); 9 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": null,
+  "tanggal_penetapan": "2026-09-16",
+  "tanggal_pengundangan": "2026-09-21",
+  "tempat_penetapan": "Jakarta"
+}

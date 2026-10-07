@@ -13,8 +13,7 @@ Metode: pemeriksaan `robots.txt` dan struktur halaman lewat alat pengambil halam
 - **Filter yang tersedia di daftar**: jenis dokumen (UUD, UU, Peraturan Presiden, Keputusan Menteri, dll.), tema/subjek, status (Berlaku / Tidak Berlaku), ketersediaan terjemahan, tahun, nomor dokumen, kata kunci.
 - **Metadata pada halaman detail**: nomor, tahun, judul, tanggal penetapan, tanggal pengundangan, status berlaku, subjek/tag, bidang hukum, penandatangan.
 - **Relasi**: tampil sebagai link HTML langsung (bukan lewat JavaScript), contoh label yang ditemukan: `Mengubah`. Ada juga bagian visual "Peta Hubungan Peraturan", tapi untuk scraping kita hanya butuh daftar relasi tekstualnya, bukan visualisasinya.
-- **Dokumen yang bisa diunduh di halaman detail yang diperiksa**: hanya **Abstrak**, **Risalah Pembahasan**, dan **Data Dukung** (ketiganya PDF). **Tidak ditemukan** link PDF teks lengkap batang tubuh peraturan di halaman yang diperiksa.
-  - **Ini adalah temuan yang belum pasti final** — perlu dicek ulang secara manual pada beberapa Permenaker lain di awal Fase 1 sebelum disimpulkan bahwa situs ini memang tidak menyediakan teks lengkap.
+- **Dokumen yang bisa diunduh/dilihat di halaman detail**: tombol "Abstrak", "Risalah Pembahasan", "Data Dukung" (link `<a href>` biasa) — **dan PDF teks lengkap**, tapi disematkan lewat `<iframe>` PDF viewer (`asset/data_puu/{slug}.pdf`) dan tombol "Dokumen" (`onclick`), bukan `<a href>` biasa. **Dikonfirmasi lewat pengambilan HTML mentah** — lihat [verifikasi manual](#verifikasi-manual-2026-10-07-dengan-invoke-webrequest--pypdf-bukan-alat-ringkas-ai) di bawah. (Catatan awal Fase 0 yang menyimpulkan "tidak ada PDF teks lengkap" ternyata salah — itu keterbatasan alat ringkas HTML, bukan keterbatasan situs.)
 
 ## peraturan.bpk.go.id
 
@@ -54,8 +53,25 @@ Pengintaian di atas dilakukan lewat alat pengambil-dan-ringkas halaman otomatis,
 2. Periksa langsung dengan `BeautifulSoup`/`lxml` di mana persisnya tag/kelas CSS yang membungkus setiap field metadata dan relasi.
 3. Konfirmasi ulang temuan "tidak ada PDF teks lengkap di jdih.kemnaker.go.id" pada minimal 3 Permenaker lain sebelum menganggapnya sebagai keterbatasan situs yang permanen.
 
+## Verifikasi manual (2026-10-07, dengan `Invoke-WebRequest` + `pypdf`, bukan alat ringkas AI)
+
+Pengecekan langsung terhadap HTML mentah dan satu file PDF nyata, untuk menggantikan asumsi dari ringkasan AI di atas:
+
+- **Konektivitas**: `peraturan.bpk.go.id` bisa diakses langsung dari klien HTTP .NET/PowerShell (TLS 1.2). **`jdih.kemnaker.go.id` GAGAL** — `Invoke-WebRequest` melempar `Could not create SSL/TLS secure channel` meski situs lain (termasuk BPK dan Google) berhasil. Ini menunjukkan server Kemnaker punya konfigurasi TLS/cipher suite yang tidak kompatibel dengan client .NET default — kemungkinan juga akan bermasalah dengan beberapa versi `requests`/OpenSSL di Python, perlu dicoba langsung di Fase 1 (mungkin perlu `urllib3` dengan cipher suite custom atau `curl`).
+- **Struktur HTML metadata BPK** (`/Details/{id}/{slug}`): dikonfirmasi berupa pasangan div berulang `<div class="col-lg-3 fw-bold">Label</div><div class="col-lg-9">Nilai</div>` di dalam kontainer "METADATA PERATURAN" — mudah di-parse dengan BeautifulSoup tanpa perlu regex rumit.
+- **Struktur relasi BPK**: dikonfirmasi berupa heading `<div class="col-12 fw-semibold bg-light-primary p-4">Label :</div>` (label: `Diubah dengan`, `Mencabut`, `Menetapkan`, `Mengubah`) diikuti `<ol type="a"><li><a href="/Details/{id}/{slug}">...</a> <span class="text-muted">tentang</span> {judul}</li></ol>`. Beberapa entri relasi berupa teks biasa tanpa link (misal peraturan kolonial "Staatsblad") — parser harus menangani item `<li>` tanpa `<a>`.
+- **Contoh nyata Permenaker di BPK**: `/Details/231405/permenaker-no-11-tahun-2022` (Permenaker No. 11 Tahun 2022) — field metadata dan pola relasi sama persis dengan contoh UU di atas, dan `Bentuk Singkat` terisi `Permenaker`. Jadi pola parsing yang sama berlaku untuk semua jenis peraturan di situs ini, bukan khusus UU.
+- **PDF teks lengkap**: diunduh langsung `/Download/264901/Permenaker%20Nomor%2011%20Tahun%202022.pdf` dan diekstrak dengan `pypdf` — berhasil, 10 halaman, halaman pertama menghasilkan teks bersih (bukan hasil scan/gambar). Jadi untuk Permenaker modern, teks PDF bisa diandalkan untuk ekstraksi otomatis bila dibutuhkan nanti.
+
+**Koreksi penting atas temuan Fase 0 sebelumnya**: dengan `requests` Python (bukan .NET), `jdih.kemnaker.go.id` **berhasil diakses** — jadi masalah TLS di atas spesifik ke stack .NET/PowerShell, bukan ke server itu sendiri. Setelah diakses dengan benar, halaman detail Permenaker **memang punya PDF teks lengkap**, hanya disematkan lewat `<iframe>` PDF viewer (`asset/data_puu/{slug}.pdf`, contoh: `https://jdih.kemnaker.go.id/asset/data_puu/2025pmnaker005.pdf`) dan tombol "Dokumen" (`onclick="directOpen(...)"`), bukan sebagai `<a href>` biasa berlabel "Unduh" — ini sebabnya tidak terlihat oleh ringkasan AI di WebFetch sebelumnya. Relasi (`Mengubah`, dll.) tampil di bagian "Riwayat Peraturan" sebagai timeline dengan link ke peraturan terkait, strukturnya beda dari BPK (BPK: daftar `<ol>` per kategori; Kemnaker: timeline kronologis bercampur semua jenis relasi, label per item lewat class `timeline-label bg-{jenis}`).
+
+- Diunduh dan diekstrak PDF `2025pmnaker005.pdf` (Permenaker No. 5 Tahun 2025) dengan `pypdf`: 16 halaman, teks berhasil diekstrak (bukan scan). **Tapi baris pertama dokumen berbunyi "RANCANGAN PERATURAN MENTERI KETENAGAKERJAAN..."** — kata "RANCANGAN" (draft) muncul di naskah yang disajikan sebagai peraturan resmi berlaku. Ini perlu diklarifikasi di Fase 1: apakah ini quirk template yang tidak dibersihkan, atau memang ada risiko situs menyajikan naskah draft bukan naskah final yang diundangkan.
+
+**Simpulan setelah verifikasi**: kedua situs sebenarnya punya PDF teks lengkap Permenaker. Keputusan sumber primer BPK tetap dipertahankan — relasinya terkategori lebih jelas per jenis (bukan timeline campur), dan tidak ada tanda "RANCANGAN" pada sampel yang dicek. Kemnaker tetap jadi pembanding resmi, dengan catatan kewaspadaan soal kata "RANCANGAN" di atas.
+
 ## Hal yang masih terbuka untuk Fase 1
 
-- Konfirmasi final: apakah jdih.kemnaker.go.id benar-benar tidak menyediakan PDF teks lengkap Permenaker, atau link-nya hanya belum ditemukan.
-- Verifikasi apakah PDF di peraturan.bpk.go.id selalu berupa teks yang bisa diekstrak, atau ada yang berupa hasil scan (terutama peraturan lama).
+- **Klarifikasi kata "RANCANGAN" pada PDF Kemnaker** — cek beberapa Permenaker lain apakah ini konsisten muncul (kemungkinan quirk template) sebelum memutuskan apakah teks PDF Kemnaker aman dipakai untuk apa pun selain cross-check metadata.
+- Verifikasi apakah ada PDF Permenaker/peraturan lain di BPK yang berupa hasil scan (terutama peraturan lama) — sample yang dicek baru dua peraturan modern (2022–2023).
 - Cek apakah ada endpoint/API tersembunyi (misal JSON) di salah satu situs yang lebih stabil untuk diambil dibanding HTML.
+- Klien HTTP scraper harus memakai Python `requests` (terverifikasi jalan untuk kedua situs) — jangan pakai pendekatan yang bergantung pada stack TLS .NET/PowerShell.

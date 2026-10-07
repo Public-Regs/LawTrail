@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-14-tahun-2026-organisasi-dan-tata-kerja-kementerian-ketenagakerjaa",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 14 Tahun 2026 tentang Organisasi dan Tata Kerja Kementerian Ketenagakerjaan",
+  "nomor": "14",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 357430,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/421466/permenaker-no-14-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/357430/permenaker-no-14-tahun-2026-organisasi-dan-tata-kerja-kementerian-ketenagakerjaa"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-20-tahun-2024",
+      "target_title": "Permenaker No. 20 Tahun 2024",
+      "target_url": "https://peraturan.bpk.go.id/Details/312750/permenaker-no-20-tahun-2024",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "STRUKTUR ORGANISASI"
+  ],
+  "sumber_pengundangan": "BN 2026 (672); 74 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-09-28",
+  "tanggal_penetapan": "2026-09-24",
+  "tanggal_pengundangan": "2026-09-28",
+  "tempat_penetapan": "Jakarta"
+}

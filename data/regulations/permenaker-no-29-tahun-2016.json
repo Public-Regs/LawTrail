@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-29-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 29 Tahun 2016 tentang Pedoman Nomenklatur Dinas Ketenagakerjaan Provinsi dan Kabupaten/Kota",
+  "nomor": "29",
+  "pembanding": {
+    "id_situs": 1351,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1351/peraturan-menteri-ketenagakerjaan-nomor-29-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 146188,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252315/Kemnaker%20No.%2029%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146188/permenaker-no-29-tahun-2016"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - KETENAGAKERJAAN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - STRUKTUR ORGANISASI"
+  ],
+  "sumber_pengundangan": "BN.2016/No.1440, jdih.kemnaker.go.id : 5 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-09-26",
+  "tanggal_penetapan": "2016-09-26",
+  "tanggal_pengundangan": "2016-09-26",
+  "tempat_penetapan": "Jakarta"
+}

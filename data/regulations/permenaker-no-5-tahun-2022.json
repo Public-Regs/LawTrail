@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-5-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 5 Tahun 2022 tentang Akreditasi Lembaga Pelatihan Kerja",
+  "nomor": "5",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 231396,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264818/Permenaker%20Nomor%205%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231396/permenaker-no-5-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-34-tahun-2016",
+      "target_title": "Permenaker No. 34 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146204/permenaker-no-34-tahun-2016",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN.2022/No.523, peraturan.go.id: 24 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-05-25",
+  "tanggal_penetapan": "2022-05-20",
+  "tanggal_pengundangan": "2022-05-25",
+  "tempat_penetapan": "Jakarta"
+}

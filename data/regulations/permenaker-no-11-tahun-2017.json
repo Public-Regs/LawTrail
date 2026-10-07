@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-11-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2017 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 2 Tahun 2017 tentang Pedoman Penyaluran Bantuan Pemerintah di Kementerian Ketenagakerjaan",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 1505,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Tidak Berlaku",
+    "status_cocok": false,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1505/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 145064,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/136867/Kemnaker%20No.%2011%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145064/permenaker-no-11-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-2-tahun-2017",
+      "target_title": "Permenaker No. 2 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/145063/permenaker-no-2-tahun-2017",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PENGELOLAAN KEUANGAN NEGARA / DAERAH - BANTUAN, SUMBANGAN, BENCANA / KEBENCANAAN, DAN PENANGGULANGAN BENCANA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.1231, peraturan.go.id : 4 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-09-07",
+  "tanggal_penetapan": "2017-09-07",
+  "tanggal_pengundangan": "2017-09-07",
+  "tempat_penetapan": "Jakarta"
+}

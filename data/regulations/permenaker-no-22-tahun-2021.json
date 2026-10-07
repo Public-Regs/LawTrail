@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-22-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 22 Tahun 2021 tentang Pengendalian Gratifikasi bagi Pegawai dan Penyelenggara Negara di Kementerian Ketenagakerjaan",
+  "nomor": "22",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195995,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189834/Permenaker%20Nomor%2022%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195995/permenaker-no-22-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-17-tahun-2017",
+      "target_title": "Permenaker No. 17 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/146250/permenaker-no-17-tahun-2017",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-25-tahun-2015",
+      "target_title": "Permenaker No. 25 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145998/permenaker-no-25-tahun-2015",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - TINDAK PIDANA KORUPSI, PENCEGAHAN KORUPSI"
+  ],
+  "sumber_pengundangan": "BN.2021/No.1234, jdih.kemnaker.go.id : 21 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-11-08",
+  "tanggal_penetapan": "2021-11-08",
+  "tanggal_pengundangan": "2021-11-08",
+  "tempat_penetapan": "Jakarta"
+}

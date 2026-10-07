@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-18-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 18 Tahun 2017 tentang Tata Cara Wajib Lapor Ketenagakerjaan di Perusahaan dalam Jaringan",
+  "nomor": "18",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146272,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252447/Kemnaker%20No.%2018%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146272/permenaker-no-18-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-4-tahun-2019",
+      "target_title": "Permenaker No. 4 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145251/permenaker-no-4-tahun-2019",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.14/MEN/IV/2006 tentang Tata Cara Pelaporan Ketenagakerjaan di Perusahaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.1540, jdih.kemnaker.go.id : 13 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-11-06",
+  "tanggal_penetapan": "2017-11-06",
+  "tanggal_pengundangan": "2017-11-06",
+  "tempat_penetapan": "Jakarta"
+}

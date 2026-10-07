@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-8-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 8 Tahun 2023 tentang Pemberian Kuasa dan Pendelegasian Wewenang kepada Pejabat Tertentu untuk Menandatangani  Naskah Dinas di Bidang Sumber Daya Manusia Aparatur serta Penunjukkan Pelaksana Tugas dan Pelaksana Harian di Kementerian Ketenagakerjaan",
+  "nomor": "8",
+  "pembanding": {
+    "id_situs": 2363,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2363/peraturan-menteri-ketenagakerjaan-nomor-8-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 271214,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/329189/2023PMNaker008.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/271214/permenaker-no-8-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-15-tahun-2016",
+      "target_title": "Permenaker No. 15 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146123/permenaker-no-15-tahun-2016",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER. 05/MEN/IV/2008 tentang Tata Cara Penunjukkan Pelaksana Tugas dan Pelaksana Harian di Lingkungan Departemen Tenaga Kerja dan Transmigrasi sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.26/MEN/IX/2009 tentang Perubahan Kedua atas Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER. 05/MEN/IV/2008 tentang Tata Cara Penunjukkan Pelaksana Tugas dan Pelaksana Harian di Lingkungan Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ADMINISTRASI DAN TATA USAHA NEGARA - PELIMPAHAN KEWENANGAN / PENUGASAN PEJABAT NEGARA / PENUGASAN BUMN"
+  ],
+  "sumber_pengundangan": "BN 2023 (648) : 23 hlm.; jdih.kemnaker.go.id",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-08-23",
+  "tanggal_penetapan": "2023-08-22",
+  "tanggal_pengundangan": "2023-08-23",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-4-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 4 Tahun 2019 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 18 Tahun 2017 tentang Tata Cara Wajib Lapor Ketenagakerjaan di Perusahaan Dalam Jaringan",
+  "nomor": "4",
+  "pembanding": {
+    "id_situs": 1594,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1594/peraturan-menteri-ketenagakerjaan-nomor-4-tahun-2019"
+  },
+  "primer": {
+    "id_situs": 145251,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137055/Permenaker%20No.%204%20Tahun%202019.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145251/permenaker-no-4-tahun-2019"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-18-tahun-2017",
+      "target_title": "Permenaker No. 18 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/146272/permenaker-no-18-tahun-2017",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2019/No.463, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-04-26",
+  "tanggal_penetapan": "2019-04-26",
+  "tanggal_pengundangan": "2019-04-26",
+  "tempat_penetapan": "Jakarta"
+}

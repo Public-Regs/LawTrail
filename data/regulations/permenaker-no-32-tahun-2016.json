@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-32-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 32 Tahun 2016 tentang Sistem Pelaporan Unit Kerja Pusat dan Daerah Bidang Ketenagakerjaan",
+  "nomor": "32",
+  "pembanding": {
+    "id_situs": 1356,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1356/peraturan-menteri-ketenagakerjaan-nomor-32-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 146203,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252338/Kemnaker%20No.%2032%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146203/permenaker-no-32-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-39-tahun-2015",
+      "target_title": "Permenaker No. 39 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146038/permenaker-no-39-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.18/MEN/XII/2011 tentang Sistem Pelaporan Satuan Kerja Perangkat Daerah/Instansi provinsi/Kabupaten/Kota Bidang Ketenagakerjaaan dan Ketransmigrasian",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - KETENAGAKERJAAN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - PERIZINAN, PELAYANAN PUBLIK - STRUKTUR ORGANISASI"
+  ],
+  "sumber_pengundangan": "BN.2016/No.1737, jdih.kemnaker.go.id : 9 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-11-15",
+  "tanggal_penetapan": "2016-11-15",
+  "tanggal_pengundangan": "2016-11-15",
+  "tempat_penetapan": "Jakarta"
+}

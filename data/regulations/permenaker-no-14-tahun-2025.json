@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-14-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 14 Tahun 2025 tentang Standar Kegiatan Usaha dan Standar Produk/Jasa pada Penyelenggaraan Perizinan Berusaha Berbasis Risiko Sektor Ketenagakerjaan",
+  "nomor": "14",
+  "pembanding": {
+    "id_situs": 2790,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2790/peraturan-menteri-ketenagakerjaan-nomor-14-tahun-2025"
+  },
+  "primer": {
+    "id_situs": 343010,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/406184/permenaker-no-14-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/343010/permenaker-no-14-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-6-tahun-2021",
+      "target_title": "Permenaker No. 6 Tahun 2021",
+      "target_url": "https://peraturan.bpk.go.id/Details/171225/permenaker-no-6-tahun-2021",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PERIZINAN, PELAYANAN PUBLIK - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN 2025 (959); 61 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-11-21",
+  "tanggal_penetapan": "2025-11-18",
+  "tanggal_pengundangan": "2025-11-21",
+  "tempat_penetapan": "Jakarta"
+}

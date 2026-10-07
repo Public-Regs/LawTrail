@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-17-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 17 Tahun 2024 tentang Sistem Informasi ketenagakerjaan",
+  "nomor": "17",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 312745,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/373540/permenaker-no-17-tahun-2024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/312745/permenaker-no-17-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri ini mulai berlaku, Peraturan\r\nMenteri Tenaga Kerja dan Transmigrasi Nomor\r\nPER.19/MEN/IX/2009 tentang Pembangunan dan\r\nPengembangan Sistem Informasi Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "TELEKOMUNIKASI, INFORMATIKA, SIBER, DAN INTERNET"
+  ],
+  "sumber_pengundangan": "BN 2024 (1035); 8 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-12-30",
+  "tanggal_penetapan": "2024-12-30",
+  "tanggal_pengundangan": "2024-12-30",
+  "tempat_penetapan": "Jakarta"
+}

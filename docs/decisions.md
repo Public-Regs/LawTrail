@@ -2,6 +2,32 @@
 
 Format: tanggal, keputusan, alasan. Tambahkan entri baru di bagian atas (terbaru dulu).
 
+## 2026-10-07 — Temuan: perbedaan status antar sumber (hasil scraping penuh Fase 1)
+
+**Bukan keputusan, tapi temuan data** yang perlu ditangani dengan hati-hati karena menyentuh aturan "bahasa netral": dari 166 Permenaker yang berstatus "Berlaku" di peraturan.bpk.go.id, 101 cocok dicek ke jdih.kemnaker.go.id, dan di antaranya **7 punya status berbeda** (BPK: "Berlaku", Kemnaker: "Tidak Berlaku"):
+
+- Permenaker No. 10 Tahun 2017
+- Permenaker No. 11 Tahun 2017
+- Permenaker No. 12 Tahun 2018
+- Permenaker No. 13 Tahun 2018
+- Permenaker No. 24 Tahun 2018
+- Permenaker No. 5 Tahun 2019
+- Permenaker No. 8 Tahun 2022
+
+**Sikap proyek**: sesuai aturan di [`CLAUDE.md`](../CLAUDE.md), LawTrail tidak menyimpulkan status mana yang "benar" — kedua status ditampilkan apa adanya di `data/regulations/{id}.json` (field `status` dari primer, `pembanding.status` dari Kemnaker) beserta tanggal pengambilan, dan nanti di situs sebagai fakta dari masing-masing sumber dengan link ke keduanya.
+
+**Catatan reliabilitas cross-check**: 65 dari 166 Permenaker tidak ketemu pasangannya di Kemnaker saat scraping penuh. Pengecekan ulang manual terhadap beberapa di antaranya (Permenaker No. 20/2024, No. 19/2022) menunjukkan sebenarnya ADA di Kemnaker — jadi `lawtrail.kemnaker.find_detail_url()` kemungkinan flaky (gagal intermiten, bukan konsisten tidak ketemu). Perlu diperbaiki di Fase 2 sebelum angka "65 tidak ketemu" dipakai sebagai kesimpulan apa pun.
+
+## 2026-10-07 — Skema data, cakupan scraping, dan cara cross-check Kemnaker
+
+**Keputusan**:
+- `data/regulations/{id}.json` memakai slug BPK sebagai id, dengan blok `primer` (BPK) dan `pembanding` (Kemnaker, boleh `null`), serta `relations[]` beranotasi `type`/`target_id`/`sumber`.
+- `data/edges.json` dibangkitkan otomatis (bukan ditulis manual) dari union seluruh `relations[]`.
+- Fase 1 hanya mengambil dan menyimpan Permenaker yang statusnya "Berlaku" di peraturan.bpk.go.id (filter `jenis=105`). Peraturan yang sudah dicabut tetap muncul sebagai `target_id` di relasi peraturan lain, tapi file JSON-nya sendiri belum dibuat — bisa ditambah di iterasi berikutnya kalau dibutuhkan riwayat peraturan tidak berlaku.
+- Cross-check Kemnaker memakai pencarian kata kunci (`?keyword=Peraturan Menteri Ketenagakerjaan Nomor {n} Tahun {t}`) lalu dicocokkan ulang lewat slug persis, karena parameter `nomor=`/`tahun=` di `jdih.kemnaker.go.id` terbukti tidak benar-benar memfilter hasil saat diuji langsung.
+
+**Alasan**: Disetujui pemilik proyek lewat opsi "Setuju, lanjutkan" dan "Semua Permenaker yang masih berlaku" (lihat ringkasan Fase 1 di [`PLAN.md`](PLAN.md)). Pendekatan keyword+slug untuk Kemnaker dipilih setelah pengujian langsung menunjukkan filter query param-nya tidak berfungsi seperti yang diharapkan.
+
 ## 2026-10-07 — Kontak User-Agent dan email commit
 
 **Keputusan**: Pakai `hiramaulana@users.noreply.github.com` sebagai kontak di header `User-Agent` scraper (`Lawtrail/0.1 (+hiramaulana@users.noreply.github.com)`) dan sebagai email commit Git.

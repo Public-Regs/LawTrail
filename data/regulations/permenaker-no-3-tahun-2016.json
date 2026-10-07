@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-3-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 3 Tahun 2016 tentang Tata Cara Penetapan Standar Kompetensi Kerja Nasional Indonesia",
+  "nomor": "3",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146099,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252043/Kemnaker%20No.%203%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146099/permenaker-no-3-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor 8 Tahun 2012 tentang Tata Cara Penetapan Standar Kompetensi Kerja Nasional Indonesia",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2016/No.258, jdih.kemnaker.go.id : 23 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-02-19",
+  "tanggal_penetapan": "2016-02-19",
+  "tanggal_pengundangan": "2016-02-19",
+  "tempat_penetapan": "Jakarta"
+}

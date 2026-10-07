@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-4-tahun-2018",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 4 Tahun 2018 tentang Tata Cara Pengenaan dan Pencabutan Sanksi Administratif Tidak Mendapat Pelayanan Publik Tertentu bagi Pemberi Kerja Selain Penyelenggara Negara",
+  "nomor": "4",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 145504,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137310/Kemnaker%20No.%204%20Tahun%202018.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145504/permenaker-no-4-tahun-2018"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenaker Nomor 23 Tahun 2016 tentang Tata Cara Pengenaan dan Pencabutan Sanksi Administratif Tidak Mendapat Pelayanan publik tertentu bagi Pemberi Kerja Selain Penyelenggara Negara",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PERIZINAN, PELAYANAN PUBLIK"
+  ],
+  "sumber_pengundangan": "BN.2018/No.503, jdih.kemnaker.go.id : 11 hlm.",
+  "tahun": 2018,
+  "tanggal_berlaku": "2018-04-11",
+  "tanggal_penetapan": "2018-04-11",
+  "tanggal_pengundangan": "2018-04-11",
+  "tempat_penetapan": "Jakarta"
+}

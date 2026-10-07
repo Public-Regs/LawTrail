@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-13-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 13 Tahun 2025 tentang Panitia Pembina Keselamatan dan Kesehatan Kerja",
+  "nomor": "13",
+  "pembanding": {
+    "id_situs": 2788,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2788/peraturan-menteri-ketenagakerjaan-nomor-13-tahun-2025"
+  },
+  "primer": {
+    "id_situs": 342991,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/406164/permenaker-no-13-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/342991/permenaker-no-13-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja Nomor PER.04/MEN/1987 tentang Panitia Pembina Keselamatan dan Kesehatan Kerja serta Tata Cara Penunjukan Ahli Keselamatan Kerja,",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2025 (954); 11 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-11-19",
+  "tanggal_penetapan": "2025-11-17",
+  "tanggal_pengundangan": "2025-11-19",
+  "tempat_penetapan": "Jakarta"
+}

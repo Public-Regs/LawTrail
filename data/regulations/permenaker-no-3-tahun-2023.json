@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-3-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 3 Tahun 2023 tentang Budaya Kerja dan Kode Etik Aparatur Sipil Negara di Kementerian Ketenagakerjaan",
+  "nomor": "3",
+  "pembanding": {
+    "id_situs": 2294,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2294/peraturan-menteri-ketenagakerjaan-nomor-3-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 245530,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/301550/Permenaker%203%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/245530/permenaker-no-3-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-37-tahun-2015",
+      "target_title": "Permenaker No. 37 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146036/permenaker-no-37-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-1-tahun-2013",
+      "target_title": "Permenaker No. 1 Tahun 2013",
+      "target_url": "https://peraturan.bpk.go.id/Details/146451/permenaker-no-1-tahun-2013",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - KODE ETIK"
+  ],
+  "sumber_pengundangan": "BN.2023/No.62, jdih.kemnaker.go.id: 16 hlm.",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-01-13",
+  "tanggal_penetapan": "2023-01-11",
+  "tanggal_pengundangan": "2023-01-13",
+  "tempat_penetapan": "Jakarta"
+}

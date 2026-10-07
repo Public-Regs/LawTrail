@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-20-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 20 Tahun 2021 tentang Pejabat Perbendaharaan Negara, Unit Akuntansi dan Pelaporan Keuangan, dan Unit Akuntansi Barang Milik Negara di Kementerian Ketenagakerjaan",
+  "nomor": "20",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195990,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189829/Permenaker%20Nomor%2020%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195990/permenaker-no-20-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-20-tahun-2018",
+      "target_title": "Permenaker No. 20 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/195992/permenaker-no-20-tahun-2018",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - PENGELOLAAN KEUANGAN NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2021/No.1232, jdih.kemnaker.go.id : 19 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-11-08",
+  "tanggal_penetapan": "2021-11-05",
+  "tanggal_pengundangan": "2021-11-08",
+  "tempat_penetapan": "Jakarta"
+}

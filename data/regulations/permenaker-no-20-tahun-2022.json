@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-20-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 20 Tahun 2022 tentang Pedoman Pembayaran Dana Iuran Peserta Program Jaminan Kehilangan Pekerjaan oleh Pemerintah",
+  "nomor": "20",
+  "pembanding": {
+    "id_situs": 2263,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2263/peraturan-menteri-ketenagakerjaan-nomor-20-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 245526,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/301546/Permenaker%2020%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/245526/permenaker-no-20-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-7-tahun-2025",
+      "target_title": "Permenaker No. 7 Tahun 2025",
+      "target_url": "https://peraturan.bpk.go.id/Details/323151/permenaker-no-7-tahun-2025",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ASURANSI - KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2022/No.1197, jdih.kemnaker.go.id: 7 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-12-02",
+  "tanggal_penetapan": "2022-11-24",
+  "tanggal_pengundangan": "2022-12-02",
+  "tempat_penetapan": "Jakarta"
+}

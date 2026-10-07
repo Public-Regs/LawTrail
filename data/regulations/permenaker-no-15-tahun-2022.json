@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-15-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 15 Tahun 2022 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 20 Tahun 2019 tentang Penatausahaan Penerimaan Negara Bukan Pajak yang Bersumber dari Dana Kompensasi Penggunaan Tenaga Kerja Asing",
+  "nomor": "15",
+  "pembanding": {
+    "id_situs": 2256,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2256/peraturan-menteri-ketenagakerjaan-nomor-15-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 231409,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264914/Permenaker%20Nomor%2015%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231409/permenaker-no-15-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-20-tahun-2019",
+      "target_title": "Permenaker No. 20 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145275/permenaker-no-20-tahun-2019",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PNBP / PENERIMAAN NEGARA BUKAN PAJAK"
+  ],
+  "sumber_pengundangan": "BN.2022/No.1148, jdih.kemnaker.go.id: 5 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-11-14",
+  "tanggal_penetapan": "2022-11-09",
+  "tanggal_pengundangan": "2022-11-14",
+  "tempat_penetapan": "Jakarta"
+}

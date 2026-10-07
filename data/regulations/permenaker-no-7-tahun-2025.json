@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-7-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 7 Tahun 2025 tentang Perubahan atas\r\nPeraturan Menteri Ketenagakerjaan Nomor 20 Tahun\r\n2022 tentang Pedoman Pembayaran Dana Iuran Peserta\r\nProgram Jaminan Kehilangan Pekerjaan oleh\r\nPemerintah",
+  "nomor": "7",
+  "pembanding": {
+    "id_situs": 2706,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2706/peraturan-menteri-ketenagakerjaan-nomor-7-tahun-2025"
+  },
+  "primer": {
+    "id_situs": 323151,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/384967/permenaker-no-7-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/323151/permenaker-no-7-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-20-tahun-2022",
+      "target_title": "Permenaker No. 20 Tahun 2022",
+      "target_url": "https://peraturan.bpk.go.id/Details/245526/permenaker-no-20-tahun-2022",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2025 (519); 7 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-07-18",
+  "tanggal_penetapan": "2025-07-16",
+  "tanggal_pengundangan": "2025-07-18",
+  "tempat_penetapan": "Jakarta"
+}

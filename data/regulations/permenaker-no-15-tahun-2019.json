@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-15-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 15 Tahun 2019 tentang Pedoman Penatausahaan Persediaan di Kementerian Ketenagakerjaan",
+  "nomor": "15",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 145270,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137074/Permenaker%20No.%2015%20Tahun%202019.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145270/permenaker-no-15-tahun-2019"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor 353 Tahun 2013 tentang Pedoman Penatausahaan Persediaan di Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PENGELOLAAN KEUANGAN NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2019/No.994, jdih.kemnaker.go.id : 14 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-09-03",
+  "tanggal_penetapan": "2019-09-03",
+  "tanggal_pengundangan": "2019-09-03",
+  "tempat_penetapan": "Jakarta"
+}

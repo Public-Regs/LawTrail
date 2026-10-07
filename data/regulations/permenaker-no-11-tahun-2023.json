@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-11-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2023 tentang Keselamatan dan Kesehatan Kerja di Ruang Terbatas",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 2412,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2412/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 282464,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/341422/Permenaker%20Nomor%2011%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN"
+  ],
+  "sumber_pengundangan": "BN 2023 (936); 20 hlm",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-11-28",
+  "tanggal_penetapan": "2023-11-21",
+  "tanggal_pengundangan": "2023-11-28",
+  "tempat_penetapan": "Jakarta"
+}

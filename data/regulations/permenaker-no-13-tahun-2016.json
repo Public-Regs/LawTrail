@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-13-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 13 Tahun 2016 tentang Pedoman Akuntansi Berbasis Akrual dan Pelaporan Keuangan di Kementerian Ketenagakerjaan",
+  "nomor": "13",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146115,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252165/Kemnaker%20No.%2013%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146115/permenaker-no-13-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-25-tahun-2016",
+      "target_title": "Permenaker No. 25 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146175/permenaker-no-25-tahun-2016",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PENGELOLAAN KEUANGAN NEGARA / DAERAH - KEBIJAKAN AKUNTANSI"
+  ],
+  "sumber_pengundangan": "BN.2016/No.490, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-04-01",
+  "tanggal_penetapan": "2016-03-31",
+  "tanggal_pengundangan": "2016-04-01",
+  "tempat_penetapan": "Jakarta"
+}

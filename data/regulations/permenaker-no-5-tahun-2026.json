@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-5-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 5 Tahun 2026 tentang Statuta Politeknik Ketenagakerjaan",
+  "nomor": "5",
+  "pembanding": {
+    "id_situs": 3024,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/3024/peraturan-menteri-ketenagakerjaan-nomor-5-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 348689,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/412350/2026pmnaker005.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/348689/permenaker-no-5-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Ketenagakerjaan Nomor 16 Tahun 2017 tentang Statuta Politeknik Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "STATUTA ORGANISASI / LEMBAGA"
+  ],
+  "sumber_pengundangan": "BN 2026 (241); 43 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-04-15",
+  "tanggal_penetapan": "2026-04-14",
+  "tanggal_pengundangan": "2026-04-15",
+  "tempat_penetapan": "Jakarta"
+}

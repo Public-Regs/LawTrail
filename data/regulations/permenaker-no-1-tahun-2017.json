@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-1-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 1 Tahun 2017 tentang Struktur dan Skala Upah",
+  "nomor": "1",
+  "pembanding": {
+    "id_situs": 1442,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1442/peraturan-menteri-ketenagakerjaan-nomor-1-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 146240,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252385/Kemnaker%20No.%201%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146240/permenaker-no-1-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor KEP.49/MEN/IV/2004 tentang Ketentuan Struktur dan Skala Upah",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.441, jdih.kemnaker.go.id : 9 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-03-21",
+  "tanggal_penetapan": "2017-03-21",
+  "tanggal_pengundangan": "2017-03-21",
+  "tempat_penetapan": "Jakarta"
+}

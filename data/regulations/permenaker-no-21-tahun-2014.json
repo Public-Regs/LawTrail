@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-21-tahun-2014",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 21 Tahun 2014 tentang Pedoman Penerapan Kerangka Kualifikasi Nasional Indonesia",
+  "nomor": "21",
+  "pembanding": {
+    "id_situs": 568,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/568/peraturan-menteri-ketenagakerjaan-nomor-21-tahun-2014"
+  },
+  "primer": {
+    "id_situs": 146450,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138277/Kemnaker%20No.%2021%20Tahun%202014.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146450/permenaker-no-21-tahun-2014"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2014/No.1792, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2014,
+  "tanggal_berlaku": "2014-11-17",
+  "tanggal_penetapan": "2014-11-14",
+  "tanggal_pengundangan": "2014-11-17",
+  "tempat_penetapan": "Jakarta"
+}

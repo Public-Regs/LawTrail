@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-16-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 16 Tahun 2016 tentang Jaringan Dokumentasi dan Informasi Hukum Kementerian Ketenagakerjaan",
+  "nomor": "16",
+  "pembanding": {
+    "id_situs": 1233,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1233/peraturan-menteri-ketenagakerjaan-nomor-16-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 146125,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252202/Kemnaker%20No.%2016%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146125/permenaker-no-16-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor 20 Tahun 2014 tentang Jaringan Dokumentasi dan Informasi Hukum Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ARSIP - TELEKOMUNIKASI, INFORMATIKA, SIBER, DAN INTERNET - PERIZINAN, PELAYANAN PUBLIK - JARINGAN DOKUMENTASI DAN INFORMASI HUKUM / JDIH"
+  ],
+  "sumber_pengundangan": "BN.2016/No.604, jdih.kemnaker.go.id : 9 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-04-22",
+  "tanggal_penetapan": "2016-04-21",
+  "tanggal_pengundangan": "2016-04-22",
+  "tempat_penetapan": "Jakarta"
+}

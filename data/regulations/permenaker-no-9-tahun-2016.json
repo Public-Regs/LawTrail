@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-9-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 9 Tahun 2016 tentang Keselamatan dan Kesehatan Kerja dalam Pekerjaan pada Ketinggian",
+  "nomor": "9",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146109,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252144/Kemnaker%20No.%209%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146109/permenaker-no-9-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Dirjen Pembinaan dan Pengawasan Ketenagakerjaan Nomor KEP.45/DJPPK/IX/2008 tentang Pedoman Keselamatan dan Kesehatan Kerja Bekerja pada Ketinggian dengan Menggunakan Akses Tali (Rope Access)",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2016/No.386, jdih.kemnaker.go.id : 28 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-03-10",
+  "tanggal_penetapan": "2016-03-10",
+  "tanggal_pengundangan": "2016-03-10",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-10-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 10 Tahun 2026 tentang Pencabutan Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.12/MEN/X/2011\r\ntentang Atase Ketenagakerjaan dan Staf Teknis Ketenagakerjaan pada Perwakilan Republik Indonesia di Luar Negeri",
+  "nomor": "10",
+  "pembanding": {
+    "id_situs": 3061,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/3061/peraturan-menteri-ketenagakerjaan-nomor-10-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 351281,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/415059/permenaker-no-10-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/351281/permenaker-no-10-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor\r\nPER.12/MEN/X/2011 tentang Atase Ketenagakerjaan dan\r\nStaf Teknis Ketenagakerjaan pada Perwakilan Republik\r\nIndonesia di Luar Negeri",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2026 (414); 3 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-06-23",
+  "tanggal_penetapan": "2026-06-18",
+  "tanggal_pengundangan": "2026-06-23",
+  "tempat_penetapan": "Jakarta"
+}

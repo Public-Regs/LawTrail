@@ -1,0 +1,136 @@
+{
+  "id": "permenaker-no-2-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 2 Tahun 2026 tentang Pencabutan Peraturan Menteri Ketenagakerjaan Bidang Penempatan dan Pelindungan Pekerja Migran Indonesia",
+  "nomor": "2",
+  "pembanding": {
+    "id_situs": 2826,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2826/peraturan-menteri-ketenagakerjaan-nomor-2-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 344084,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/407328/permenaker-no-2-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/344084/permenaker-no-2-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-9-tahun-2024",
+      "target_title": "Permenaker No. 9 Tahun 2024",
+      "target_url": "https://peraturan.bpk.go.id/Details/309815/permenaker-no-9-tahun-2024",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2024",
+      "target_title": "Permenaker No. 10 Tahun 2024",
+      "target_url": "https://peraturan.bpk.go.id/Details/309820/permenaker-no-10-tahun-2024",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-2-tahun-2023",
+      "target_title": "Permenaker No. 2 Tahun 2023",
+      "target_url": "https://peraturan.bpk.go.id/Details/245529/permenaker-no-2-tahun-2023",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2020",
+      "target_title": "Permenaker No. 10 Tahun 2020",
+      "target_url": "https://peraturan.bpk.go.id/Details/145071/permenaker-no-10-tahun-2020",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-9-tahun-2019",
+      "target_title": "Permenaker No. 9 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145259/permenaker-no-9-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-2-tahun-2019",
+      "target_title": "Permenaker No. 2 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145248/permenaker-no-2-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-17-tahun-2019",
+      "target_title": "Permenaker No. 17 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145272/permenaker-no-17-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2019",
+      "target_title": "Permenaker No. 10 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145264/permenaker-no-10-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-7-tahun-2015",
+      "target_title": "Permenaker No. 7 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145977/permenaker-no-7-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-45-tahun-2015",
+      "target_title": "Permenaker No. 45 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146044/permenaker-no-45-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-40-tahun-2015",
+      "target_title": "Permenaker No. 40 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146039/permenaker-no-40-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-23-tahun-2014",
+      "target_title": "Permenaker No. 23 Tahun 2014",
+      "target_url": "https://peraturan.bpk.go.id/Details/146447/permenaker-no-23-tahun-2014",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-6-tahun-2013",
+      "target_title": "Permenaker No. 6 Tahun 2013",
+      "target_url": "https://peraturan.bpk.go.id/Details/146452/permenaker-no-6-tahun-2013",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.23/MEN/IX/2009 tentang Pendidikan dan Pelatihan Kerja bagi Calon Tenaga Kerja Indonesia di Luar Negeri",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.07/MEN/IV/2005 tentang Standar Tempat Penampungan Calon Tenaga Kerja Indonesia",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2026 (34); 4 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-01-19",
+  "tanggal_penetapan": "2026-01-15",
+  "tanggal_pengundangan": "2026-01-19",
+  "tempat_penetapan": "Jakarta"
+}

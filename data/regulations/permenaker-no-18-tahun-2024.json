@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-18-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 18 Tahun 2024 tentang Penempatan Tenaga Kerja Dalam Negeri",
+  "nomor": "18",
+  "pembanding": {
+    "id_situs": 2622,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2622/peraturan-menteri-ketenagakerjaan-nomor-18-tahun-2024"
+  },
+  "primer": {
+    "id_situs": 312746,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/373541/permenaker-no-18-tahun-2024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/312746/permenaker-no-18-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-39-tahun-2016",
+      "target_title": "Permenaker No. 39 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146213/permenaker-no-39-tahun-2016",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "ketentuan yang mengatur mengenai kelembagaan\r\nLembaga Penyalur Pekerja Rumah Tangga\r\nsebagaimana diatur dalam Pasal 12 sampai dengan\r\nPasal 27 Peraturan Menteri Ketenagakerjaan Nomor 2\r\nTahun 2015 tentang Perlindungan Pekerja Rumah Tangga",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2024 (1036); 74 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-12-30",
+  "tanggal_penetapan": "2024-12-30",
+  "tanggal_pengundangan": "2024-12-30",
+  "tempat_penetapan": "Jakarta"
+}

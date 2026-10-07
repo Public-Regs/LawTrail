@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-21-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 21 Tahun 2019 tentang Pelayanan Informasi Publik di Kementerian Ketenagakerjaan",
+  "nomor": "21",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 145276,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137080/Permenaker%20No.%2021%20Tahun%202019.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145276/permenaker-no-21-tahun-2019"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-43-tahun-2015",
+      "target_title": "Permenaker No. 43 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146042/permenaker-no-43-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Ketenagakerjaan Nomor 453 Tahun 2015 tentang Pejabat Pengelola Informasi dan Dokumentasi Kementerian Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PERIZINAN, PELAYANAN PUBLIK - INFORMASI PUBLIK"
+  ],
+  "sumber_pengundangan": "BN.2019/No.1265, peraturan.go.id : 22 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-10-22",
+  "tanggal_penetapan": "2019-10-18",
+  "tanggal_pengundangan": "2019-10-22",
+  "tempat_penetapan": "Jakarta"
+}

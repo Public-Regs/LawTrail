@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-4-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 4 Tahun 2023 tentang Jaminan Sosial Pekerja Migran Indonesia",
+  "nomor": "4",
+  "pembanding": {
+    "id_situs": 2297,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2297/peraturan-menteri-ketenagakerjaan-nomor-4-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 245531,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/301551/Permenaker%204%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/245531/permenaker-no-4-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-18-tahun-2018",
+      "target_title": "Permenaker No. 18 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/146311/permenaker-no-18-tahun-2018",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ASURANSI - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2023/No.171, jdih.kemnaker.go.id: 43 hlm.",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-02-22",
+  "tanggal_penetapan": "2023-02-21",
+  "tanggal_pengundangan": "2023-02-22",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-11-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2026 tentang Tata Cara Pengawasan Ketenagakerjaan",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 3070,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/3070/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 351282,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/415060/permenaker-no-11-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-1-tahun-2020",
+      "target_title": "Permenaker No. 1 Tahun 2020",
+      "target_url": "https://peraturan.bpk.go.id/Details/145059/permenaker-no-1-tahun-2020",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-33-tahun-2016",
+      "target_title": "Permenaker No. 33 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/145058/permenaker-no-33-tahun-2016",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2026 (438); 68 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-07-03",
+  "tanggal_penetapan": "2026-06-29",
+  "tanggal_pengundangan": "2026-07-03",
+  "tempat_penetapan": "Jakarta"
+}

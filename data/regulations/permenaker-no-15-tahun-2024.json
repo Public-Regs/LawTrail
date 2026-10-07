@@ -1,0 +1,46 @@
+{
+  "id": "permenaker-no-15-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 15 Tahun 2024 tentang Pemberian Tunjangan Kinerja Pegawai di Lingkungan Kementerian Ketenagakerjaan",
+  "nomor": "15",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 309878,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/370427/Permenaker%20Nomor%2015%20Tahun%202024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/309878/permenaker-no-15-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-22-tahun-2019",
+      "target_title": "Permenaker No. 22 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145277/permenaker-no-22-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-14-tahun-2018",
+      "target_title": "Permenaker No. 14 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/146306/permenaker-no-14-tahun-2018",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2017",
+      "target_title": "Permenaker No. 10 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/145522/permenaker-no-10-tahun-2017",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "HONORARIUM, GAJI, PENGHASILAN, UANG KEHORMATAN, TUNJANGAN, PENGHARGAAN, HAK LAINNYA"
+  ],
+  "sumber_pengundangan": "BN 2024 (913); 12 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-12-04",
+  "tanggal_penetapan": "2024-12-02",
+  "tanggal_pengundangan": "2024-12-04",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-1-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 1 Tahun 2023 tentang Pakaian Dinas Pejabat Fungsional Penguji Keselamatan dan Kesehatan Kerja",
+  "nomor": "1",
+  "pembanding": {
+    "id_situs": 2287,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2287/peraturan-menteri-ketenagakerjaan-nomor-1-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 245528,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/301548/Permenaker%201%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/245528/permenaker-no-1-tahun-2023"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA"
+  ],
+  "sumber_pengundangan": "BN.2023/No.12, jdih.kemnaker.go.id: 10 hlm.",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-01-04",
+  "tanggal_penetapan": "2023-01-02",
+  "tanggal_pengundangan": "2023-01-04",
+  "tempat_penetapan": "Jakarta"
+}

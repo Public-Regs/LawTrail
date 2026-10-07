@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-7-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 7 Tahun 2016 tentang Uang Servis pada Usaha Hotel dan Usaha Restoran di Hotel",
+  "nomor": "7",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146102,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252118/Kemnaker%20No.%207%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146102/permenaker-no-7-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.02/MEN/1999 tentang Pembagian Uang servis pada Usaha Hotel, Restoran, dan Usaha Pariwisata Lainnya",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "HONORARIUM, GAJI, PENGHASILAN, UANG KEHORMATAN, TUNJANGAN, PENGHARGAAN, HAK LAINNYA - KETENAGAKERJAAN - PERLINDUNGAN USAHA, PERUSAHAAN, BADAN USAHA, PERDAGANGAN"
+  ],
+  "sumber_pengundangan": "BN.2016/No.376, jdih.kemnaker.go.id : 9 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-03-08",
+  "tanggal_penetapan": "2016-03-08",
+  "tanggal_pengundangan": "2016-03-08",
+  "tempat_penetapan": "Jakarta"
+}

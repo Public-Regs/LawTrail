@@ -1,1 +1,764 @@
-[]
+[
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-1-tahun-2024",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-21-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-22-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-23-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-24-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-7-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-1-tahun-2022",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-5-tahun-2021",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-1-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2017",
+    "source": "bpk",
+    "to": "permenaker-no-14-tahun-2018",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2017",
+    "source": "bpk",
+    "to": "permenaker-no-22-tahun-2019",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-14-tahun-2020",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-16-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-21-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-5-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-10-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-15-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2017",
+    "source": "bpk",
+    "to": "permenaker-no-2-tahun-2017",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2020",
+    "source": "bpk",
+    "to": "permenaker-no-14-tahun-2019",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-8-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-8-tahun-2025",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-1-tahun-2020",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-11-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-33-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-12-tahun-2015",
+    "source": "bpk",
+    "to": "permenaker-no-33-tahun-2015",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-12-tahun-2018",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2017",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-12-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-30-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-12-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-36-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-12-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-35-tahun-2016",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-12-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-8-tahun-2025",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-13-tahun-2016",
+    "source": "bpk",
+    "to": "permenaker-no-25-tahun-2016",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-13-tahun-2018",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2017",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-13-tahun-2026-pedoman-penyaluran-bantuan-pemerintah-di-lingkungan",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2025",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-14-tahun-2019",
+    "source": "bpk",
+    "to": "permenaker-no-11-tahun-2020",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-14-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-13-tahun-2017",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-14-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-6-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-14-tahun-2026-organisasi-dan-tata-kerja-kementerian-ketenagakerjaa",
+    "source": "bpk",
+    "to": "permenaker-no-20-tahun-2024",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-15-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-2-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-15-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-20-tahun-2019",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-15-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2017",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-15-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-14-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-15-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-22-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-17-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-35-tahun-2016",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-17-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-18-tahun-2017",
+    "source": "bpk",
+    "to": "permenaker-no-4-tahun-2019",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-18-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2014",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-18-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-12-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-18-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-39-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-16-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-2-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-15-tahun-2021",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2020",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2024",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-17-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-2-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-2-tahun-2023",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-23-tahun-2014",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-40-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-45-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-6-tahun-2013",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-7-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-2-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2024",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-20-tahun-2019",
+    "source": "bpk",
+    "to": "permenaker-no-15-tahun-2022",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-20-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-20-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-20-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-7-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-21-tahun-2019",
+    "source": "bpk",
+    "to": "permenaker-no-43-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-22-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-17-tahun-2017",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-22-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-25-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-11-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-15-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-18-tahun-2020",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2012",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-20-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-21-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-22-tahun-2017",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-27-tahun-2014",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-3-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-4-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-5-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-23-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-6-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-24-tahun-2018",
+    "source": "bpk",
+    "to": "permenaker-no-5-tahun-2019",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-25-tahun-2016",
+    "source": "bpk",
+    "to": "permenaker-no-13-tahun-2016",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-26-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-15-tahun-2017",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-3-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2020",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-3-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-1-tahun-2013",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-3-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-37-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-3-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-7-tahun-2021",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-3-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-3-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-32-tahun-2016",
+    "source": "bpk",
+    "to": "permenaker-no-39-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-33-tahun-2015",
+    "source": "bpk",
+    "to": "permenaker-no-12-tahun-2015",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-35-tahun-2016",
+    "source": "bpk",
+    "to": "permenaker-no-12-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-35-tahun-2016",
+    "source": "bpk",
+    "to": "permenaker-no-17-tahun-2021",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2019",
+    "source": "bpk",
+    "to": "permenaker-no-18-tahun-2017",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2020",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2020",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-2-tahun-2022",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-18-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-11-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-4-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2022",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2019",
+    "source": "bpk",
+    "to": "permenaker-no-24-tahun-2018",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-1-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-1-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-21-tahun-2017",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-26-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-44-tahun-2015",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-34-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-5-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2022",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-6-tahun-2020",
+    "source": "bpk",
+    "to": "permenaker-no-36-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-6-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-21-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-6-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-17-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-6-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-13-tahun-2019",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-7-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-3-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-7-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-20-tahun-2022",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2021",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2018",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2022",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2021",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-15-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2024",
+    "source": "bpk",
+    "to": "permenaker-no-24-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-11-tahun-2025",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-12-tahun-2026",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-9-tahun-2026",
+    "type": "diubah_dengan"
+  },
+  {
+    "from": "permenaker-no-8-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-3-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-9-tahun-2020",
+    "source": "bpk",
+    "to": "permenaker-no-4-tahun-2020",
+    "type": "mengubah"
+  },
+  {
+    "from": "permenaker-no-9-tahun-2023",
+    "source": "bpk",
+    "to": "permenaker-no-19-tahun-2016",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-9-tahun-2025",
+    "source": "bpk",
+    "to": "permenaker-no-10-tahun-2021",
+    "type": "mencabut"
+  },
+  {
+    "from": "permenaker-no-9-tahun-2026",
+    "source": "bpk",
+    "to": "permenaker-no-8-tahun-2025",
+    "type": "mengubah"
+  }
+]

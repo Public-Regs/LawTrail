@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-1-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 1 Tahun 2026 tentang Pencabutan Peraturan Menteri Ketenagakerjaan Nomor 9 Tahun 2021 tentang Uraian Fungsi Organisasi Jabatan Pimpinan Tinggi Pratama dan Tugas Koordinator Jabatan Fungsional di Lingkungan Kementerian Ketenagakerjaan",
+  "nomor": "1",
+  "pembanding": {
+    "id_situs": 2825,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2825/peraturan-menteri-ketenagakerjaan-nomor-1-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 344081,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/407325/permenaker-no-1-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/344081/permenaker-no-1-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-9-tahun-2021",
+      "target_title": "Permenaker No. 9 Tahun 2021",
+      "target_url": "https://peraturan.bpk.go.id/Details/195977/permenaker-no-9-tahun-2021",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "STRUKTUR ORGANISASI - JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN 2026 (33); 3 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-01-19",
+  "tanggal_penetapan": "2026-01-15",
+  "tanggal_pengundangan": "2026-01-19",
+  "tempat_penetapan": "Jakarta"
+}

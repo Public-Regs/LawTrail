@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-19-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 19 Tahun 2024 tentang Penyelenggaraan Kerja Sama Dalam Negeri dan Luar Negeri di Kementerian Ketenagakerjaan",
+  "nomor": "19",
+  "pembanding": {
+    "id_situs": 2623,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2623/peraturan-menteri-ketenagakerjaan-nomor-19-tahun-2024"
+  },
+  "primer": {
+    "id_situs": 312749,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/373544/permenaker-no-19-tahun-2024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/312749/permenaker-no-19-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri ini mulai berlaku, Peraturan \r\nMenteri Tenaga Kerja dan Transmigrasi Nomor 15 Tahun\r\n2014 tentang Pedoman Kerja Sama Luar Negeri di\r\nKementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - HUBUNGAN INTERNASIONAL / KERJA SAMA INTERNASIONAL"
+  ],
+  "sumber_pengundangan": "BN 2024 (1037); 32 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-12-30",
+  "tanggal_penetapan": "2024-12-30",
+  "tanggal_pengundangan": "2024-12-30",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-5-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 5 Tahun 2016 tentang Pedoman Penyelesaian Kerugian Negara di Kementerian Ketenagakerjaan",
+  "nomor": "5",
+  "pembanding": {
+    "id_situs": 1206,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1206/peraturan-menteri-ketenagakerjaan-nomor-5-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 145972,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251710/Kemnaker%20No.%205%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145972/permenaker-no-5-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor 321 Tahun 2013 tentang Petunjuk Teknis Penyelesaian Kerugian Negara dan Piutang Negara di Lingkungan Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor 13/MEN/VII/2009 tentang Pedoman Penyelesaian Kerugian Negara di Lingkungan Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - PENYELESAIAN KERUGIAN NEGARA DAN DAERAH - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2016/No.354, jdih.kemnaker.go.id : 10 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-03-03",
+  "tanggal_penetapan": "2016-03-03",
+  "tanggal_pengundangan": "2016-03-03",
+  "tempat_penetapan": "Jakarta"
+}

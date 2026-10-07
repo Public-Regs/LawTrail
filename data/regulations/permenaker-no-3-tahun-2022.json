@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-3-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 3 Tahun 2022 tentang Pelaksanaan Dekonsentrasi Kementerian Ketenagakerjaan Tahun Anggaran 2022",
+  "nomor": "3",
+  "pembanding": {
+    "id_situs": 2159,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2159/peraturan-menteri-ketenagakerjaan-nomor-3-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 203334,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/197303/Permenaker%20Nomor%203%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/203334/permenaker-no-3-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-19-tahun-2020",
+      "target_title": "Permenaker No. 19 Tahun 2020",
+      "target_url": "https://peraturan.bpk.go.id/Details/163404/permenaker-no-19-tahun-2020",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "APBN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - PENGELOLAAN KEUANGAN NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2022/No.182, https://jdih.kemnaker.go.id: 6 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-01-01",
+  "tanggal_penetapan": "2022-02-15",
+  "tanggal_pengundangan": "2022-02-16",
+  "tempat_penetapan": "Jakarta"
+}

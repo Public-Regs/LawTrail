@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-8-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 8 Tahun 2019 tentang Pedoman Nomenklatur Jabatan Pelaksana Pegawai Negeri Sipil di Kementerian Ketenagakerjaan",
+  "nomor": "8",
+  "pembanding": {
+    "id_situs": 1601,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1601/peraturan-menteri-ketenagakerjaan-nomor-8-tahun-2019"
+  },
+  "primer": {
+    "id_situs": 163433,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/156181/Permen_8_2019.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/163433/permenaker-no-8-tahun-2019"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Ketenagakerjaan Nomor 434 Tahun 2015 tentang Pedoman Standar dan Kriteria Jabatan Pelaksana di Kementerian Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2019/No.700, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-06-26",
+  "tanggal_penetapan": "2019-06-26",
+  "tanggal_pengundangan": "2019-06-26",
+  "tempat_penetapan": "Jakarta"
+}

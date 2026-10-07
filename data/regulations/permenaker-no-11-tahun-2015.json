@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-11-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2015 tentang Petunjuk Teknis Pelaksanaan Penyesuaian Jabatan Fungsional Penguji Keselamatan dan Kesehatan Kerja",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 609,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/609/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2015"
+  },
+  "primer": {
+    "id_situs": 145983,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251844/Kemnaker%20No.%2011%20Tahun%202015.PDF",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145983/permenaker-no-11-tahun-2015"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN.2015/No.521, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-04-08",
+  "tanggal_penetapan": "2015-04-08",
+  "tanggal_pengundangan": "2015-04-08",
+  "tempat_penetapan": "Jakarta"
+}

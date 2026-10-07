@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-18-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 18 Tahun 2016 tentang Dewan Keselamatan dan Kesehatan Kerja",
+  "nomor": "18",
+  "pembanding": {
+    "id_situs": 1238,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1238/peraturan-menteri-ketenagakerjaan-nomor-18-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 146127,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252217/Kemnaker%20No.%2018%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146127/permenaker-no-18-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenaker Nomor KEP.125/MEN/82 tentang Pembentukan, Susunan dan Tata Kerja Dewan Keselamatan dan Kesehatan Kerja Nasional, Dewan Keselamatan dan Kesehatan Kerja Wilayah, dan Panitia Pembina Keselamatan dan Kesehatan Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor KEP.155/MEN/84 tentang Penyempurnaan Kepmenaker Nomor KEP.125/MEN/82 tentang Pembentukan, Susunan dan Tata Kerja Dewan Keselamatan dan Kesehatan Kerja Nasional, Dewan Keselamatan dan Kesehatan Kerja Wilayah, dan Panitia Pembina Keselamatan dan Kesehatan Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN - PEMBENTUKAN, PERUBAHAN, DAN PEMBUBARAN KOMISI / KOMITE / BADAN / DEWAN / STAF KHUSUS / TIM / PANITIA"
+  ],
+  "sumber_pengundangan": "BN.2016/No.718, jdih.kemnaker.go.id : 10 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-05-11",
+  "tanggal_penetapan": "2016-05-10",
+  "tanggal_pengundangan": "2016-05-11",
+  "tempat_penetapan": "Jakarta"
+}

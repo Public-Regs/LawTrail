@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-14-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 14 Tahun 2019 tentang Pedoman Penerapan, Penilaian, dan Reviu Pengendalian Intern atas Pelaporan Keuangan Kementerian Ketenagakerjaan",
+  "nomor": "14",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146443,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138270/Permenaker%20No.%2014%20Tahun%202019.7z",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146443/permenaker-no-14-tahun-2019"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-11-tahun-2020",
+      "target_title": "Permenaker No. 11 Tahun 2020",
+      "target_url": "https://peraturan.bpk.go.id/Details/146441/permenaker-no-11-tahun-2020",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PENGELOLAAN KEUANGAN NEGARA / DAERAH - SISTEM PENGENDALIAN INTERN"
+  ],
+  "sumber_pengundangan": "BN.2019/No.993, jdih.kemnaker.go.id : 12 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-09-03",
+  "tanggal_penetapan": "2019-09-03",
+  "tanggal_pengundangan": "2019-09-03",
+  "tempat_penetapan": "Jakarta"
+}
