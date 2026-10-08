@@ -36,7 +36,7 @@ cd scripts && python -m pytest tests/ -v
 
 ## Melaporkan kesalahan data (bukan bug kode)
 
-Kalau kamu menemukan ketidaksesuaian antara data di situs dan sumber resminya, laporkan lewat [GitHub Issues](https://github.com/hiramaulana/LawTrail/issues) — lihat juga halaman [Koreksi](https://hiramaulana.github.io/LawTrail/koreksi/) di situs untuk panduan lengkap.
+Kalau kamu menemukan ketidaksesuaian antara data di situs dan sumber resminya, laporkan lewat [GitHub Issues](https://github.com/Public-Regs/LawTrail/issues) — lihat juga halaman [Koreksi](https://Public-Regs.github.io/LawTrail/koreksi/) di situs untuk panduan lengkap.
 
 ## Komitmen etika (wajib, tidak bisa dinegosiasikan)
 

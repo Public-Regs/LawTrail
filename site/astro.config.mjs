@@ -7,6 +7,6 @@ import { defineConfig } from 'astro/config';
 // `src/lib/base.js` supaya tetap benar baik di subpath ini maupun kalau
 // nanti pindah ke domain khusus (base: '/').
 export default defineConfig({
-  site: 'https://hiramaulana.github.io',
+  site: 'https://Public-Regs.github.io',
   base: '/LawTrail',
 });

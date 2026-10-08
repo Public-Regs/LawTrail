@@ -2,6 +2,12 @@
 
 Format: tanggal, keputusan, alasan. Tambahkan entri baru di bagian atas (terbaru dulu).
 
+## 2026-10-08 — Pindah ke GitHub Organization
+
+**Keputusan**: Repo dipindah dari akun personal ke organisasi GitHub `Public-Regs` — URL repo sekarang `https://github.com/Public-Regs/LawTrail`.
+
+**Dampak**: `astro.config.mjs` (`site`), link GitHub Issues di `/koreksi/` dan `CONTRIBUTING.md`, serta remote git lokal (`.git/config`) diupdate dari `hiramaulana/LawTrail` ke `Public-Regs/LawTrail`. Email commit no-reply (`hiramaulana@users.noreply.github.com`) **tidak diubah** — itu melekat ke akun personal sebagai committer, bukan ke nama repo/organisasi.
+
 ## 2026-10-07 — Temuan: perbedaan status antar sumber (hasil scraping penuh Fase 1)
 
 **Bukan keputusan, tapi temuan data** yang perlu ditangani dengan hati-hati karena menyentuh aturan "bahasa netral": dari 166 Permenaker yang berstatus "Berlaku" di peraturan.bpk.go.id, 101 cocok dicek ke jdih.kemnaker.go.id, dan di antaranya **7 punya status berbeda** (BPK: "Berlaku", Kemnaker: "Tidak Berlaku"):
