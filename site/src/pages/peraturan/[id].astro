@@ -8,6 +8,7 @@ import {
   RELATION_LABELS,
   CHANGE_LABELS,
 } from "../../lib/data.js";
+import { url } from "../../lib/base.js";
 
 export function getStaticPaths() {
   return getAllRegulations().map((reg) => ({ params: { id: reg.id } }));
@@ -16,7 +17,7 @@ export function getStaticPaths() {
 const { id } = Astro.params;
 const reg = getRegulation(id);
 if (!reg) {
-  return Astro.redirect("/404");
+  return Astro.redirect(url("/404"));
 }
 
 const lastChecked = getLastChecked(id);
@@ -29,7 +30,7 @@ for (const rel of reg.relations ?? []) {
 ---
 
 <Base title={`Permenaker No. ${reg.nomor} Tahun ${reg.tahun}`} description={reg.judul}>
-  <p><a href="/">&larr; Daftar peraturan</a></p>
+  <p><a href={url("/")}>&larr; Daftar peraturan</a></p>
 
   <h1>
     Permenaker No. {reg.nomor} Tahun {reg.tahun}{" "}
@@ -95,7 +96,7 @@ for (const rel of reg.relations ?? []) {
           {rels.map((rel) => (
             <li>
               {rel.target_id ? (
-                <a href={`/peraturan/${rel.target_id}/`}>{rel.target_title}</a>
+                <a href={url(`/peraturan/${rel.target_id}/`)}>{rel.target_title}</a>
               ) : (
                 <span>{rel.target_title}</span>
               )}
@@ -121,4 +122,39 @@ for (const rel of reg.relations ?? []) {
       </ul>
     )}
   </section>
+
+  <section class="graph-section">
+    <h2>Peta Relasi</h2>
+    <p class="disclaimer">
+      Klik sebuah simpul untuk melihat detailnya dan memperluas graf ke tetangganya.
+      Simpul kotak merah muda ("+N ...") adalah kelompok relasi sejenis yang jumlahnya banyak — klik untuk memecahnya.
+    </p>
+    <form id="graph-filter" class="graph-filter">
+      {Object.entries(RELATION_LABELS).map(([type, label]) => (
+        <label>
+          <input type="checkbox" name="type" value={type} checked /> {label}
+        </label>
+      ))}
+    </form>
+    <div id="graph-legend" class="graph-legend"></div>
+    <div class="graph-layout">
+      <div id="graph-canvas" class="graph-canvas" data-center-id={id}></div>
+      <div id="graph-panel" class="graph-panel"></div>
+    </div>
+  </section>
 </Base>
+
+<script>
+  import { initGraph } from "../../lib/graph-client.js";
+
+  const canvas = document.getElementById("graph-canvas");
+  if (canvas) {
+    initGraph({
+      containerId: "graph-canvas",
+      panelId: "graph-panel",
+      legendId: "graph-legend",
+      filterFormId: "graph-filter",
+      centerId: canvas.dataset.centerId,
+    });
+  }
+</script>

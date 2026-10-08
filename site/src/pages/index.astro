@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getAllRegulations } from "../lib/data.js";
+import { url } from "../lib/base.js";
 
 const regulations = getAllRegulations();
 ---
@@ -9,12 +10,13 @@ const regulations = getAllRegulations();
   title="Daftar Peraturan"
   description="Arsip dan riwayat perubahan Peraturan Menteri Ketenagakerjaan."
 >
-  <link slot="head" rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <link slot="head" rel="stylesheet" href={url("/pagefind/pagefind-ui.css")} />
   <h1>Peraturan Menteri Ketenagakerjaan</h1>
   <p class="disclaimer">
     Arsip ini dibangun otomatis dari peraturan.bpk.go.id (sumber utama) dan
     jdih.kemnaker.go.id (pembanding). Tanggal pengambilan data ada di setiap
-    halaman detail — selalu bandingkan dengan sumber resmi.
+    halaman detail — selalu bandingkan dengan sumber resmi. Baca{" "}
+    <a href={url("/metodologi/")}>metodologi &amp; keterbatasan</a> arsip ini.
   </p>
 
   <p>{regulations.length} peraturan tersimpan.</p>
@@ -25,7 +27,7 @@ const regulations = getAllRegulations();
     mencoba resolve file ini saat build -- baru ada setelah langkah
     postbuild (pagefind) jalan. 404 saat `astro dev` itu wajar/aman. */
   }
-  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline src={url("/pagefind/pagefind-ui.js")}></script>
   <script is:inline>
     window.addEventListener("DOMContentLoaded", () => {
       if (window.PagefindUI) {
@@ -39,7 +41,7 @@ const regulations = getAllRegulations();
       regulations.map((reg) => (
         <li>
           <div class="reg-title">
-            <a href={`/peraturan/${reg.id}/`}>
+            <a href={url(`/peraturan/${reg.id}/`)}>
               Permenaker No. {reg.nomor} Tahun {reg.tahun}
             </a>{" "}
             <span class={`badge ${reg.status === "Berlaku" ? "status-berlaku" : "status-lain"}`}>

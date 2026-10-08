@@ -46,13 +46,25 @@ Status per fase. Diperbarui setiap fase selesai agar bisa dilanjutkan di sesi ba
 - **Belum pasti**: domain final belum ada (`astro.config.mjs` masih placeholder `lawtrail.example`, dipakai RSS) — akan diisi di Fase 5 saat hosting diputuskan.
 
 ## Fase 4 — Peta relasi
-**Status**: Belum dimulai
+**Status**: Selesai (2026-10-08)
 
-- Graf per peraturan dengan Cytoscape.js: pusat + tetangga 1–2 langkah, perluasan lewat klik, gaya garis berbeda per jenis relasi, panel detail, penanganan simpul omnibus, filter jenis relasi.
-- Selesai bila: peraturan dengan banyak relasi tetap terbaca.
+- `site/src/pages/graph.json.js` — endpoint statis berisi seluruh node (166 peraturan) + edge (127 relasi), dimuat sekali oleh klien.
+- `site/src/lib/graph-client.js` (Cytoscape.js, vanilla JS, dipasang di tiap halaman `/peraturan/{id}/`): pusat + tetangga 1–2 langkah; klik simpul apa pun memperluas graf ke tetangganya; gaya garis beda per jenis relasi (padat untuk mencabut/dicabut, putus-putus untuk mengubah/diubah, titik-titik untuk menetapkan) plus legenda; panel detail di samping; filter checkbox per jenis relasi; simpul omnibus — kalau satu peraturan punya >5 relasi jenis yang sama, dikelompokkan jadi satu simpul "+N ..." yang bisa diklik untuk dipecah.
+- Diuji dengan `permenaker-no-23-tahun-2021` (19 relasi "mencabut" — peraturan pencabutan omnibus akibat UU Cipta Kerja, data riil, bukan contoh buatan): memicu clustering dengan benar.
+- **Bug ditemukan & diperbaiki sebelum dianggap selesai**: pemecahan simpul kelompok (cluster) semula hanya menghapus pengelompokan tanpa memastikan node anggotanya benar-benar "visible" dalam state graf — berpotensi memecah cluster tapi tidak menampilkan apa pun kalau anggotanya di luar radius 2-hop. Diperbaiki dengan set `forcedVisible` yang diisi dari daftar anggota cluster saat diklik.
+- Build tetap sukses (168 halaman + indeks Pagefind), diverifikasi lokal lewat `npm run preview` + pemeriksaan HTTP (karena tidak ada browser headless tersedia untuk uji klik interaktif sungguhan — logika JS diverifikasi dengan membaca ulang kode secara manual, bukan uji end-to-end di browser).
 
 ## Fase 5 — Metodologi dan persiapan rilis
-**Status**: Belum dimulai
+**Status**: Selesai (2026-10-08)
 
-- Halaman metodologi dan batasan, disclaimer terlihat, halaman kontak/koreksi, README kontributor.
-- Selesai bila: semua halaman siap ditinjau orang berlatar hukum.
+- `/metodologi/` — apa yang dilakukan/tidak dilakukan arsip, sumber data, dan keterbatasan yang sudah ditemukan sejauh ini (status BPK vs Kemnaker berbeda pada sejumlah peraturan, cakupan cross-check Kemnaker tidak lengkap, kata "RANCANGAN" pada sebagian PDF Kemnaker, riwayat perubahan baru mulai tercatat sejak arsip dibuat).
+- `/koreksi/` — cara melaporkan kesalahan lewat GitHub Issues (bukan email pribadi, sesuai aturan privasi).
+- Disclaimer dibuat lebih menonjol: banner kuning di atas setiap halaman (sebelumnya hanya teks kecil di footer), plus link navigasi ke kedua halaman baru.
+- `CONTRIBUTING.md` di root — cara jalankan scraper & situs lokal, aturan etika yang wajib dipatuhi, cara melaporkan kesalahan data.
+- **Persiapan deploy GitHub Pages** (disetujui pemilik proyek — push akan dilakukan manual): `.github/workflows/deploy-pages.yml` + `astro.config.mjs` diisi `site`/`base` untuk subpath `/LawTrail/` (karena repo bukan `username.github.io`). Belum pernah dites deploy sungguhan.
+- **Refactor penting sebelum deploy**: seluruh link internal (nav, daftar peraturan, relasi, RSS, fetch `graph.json`, aset Pagefind) awalnya hardcode path absolut (`/peraturan/...`) yang akan rusak di subpath GitHub Pages. Dibuat helper `site/src/lib/base.js` (`url()`, berbasis `import.meta.env.BASE_URL`) dan diterapkan di semua tempat — diverifikasi dengan membaca bundle JS hasil build bahwa `/LawTrail` benar-benar ter-inline di client-side fetch `graph.json`.
+- Build tetap sukses: 170 halaman (168 dari Fase 3-4 + metodologi + koreksi) + indeks Pagefind.
+
+## Status keseluruhan
+
+Semua 6 fase (0–5) selesai dari sisi pengerjaan kode & konten di sesi ini. **Belum dilakukan**: commit/push ke GitHub (terhalang git CLI tidak tersedia di mesin ini — pemilik proyek akan push manual) dan deploy sungguhan ke GitHub Pages (baru bisa diverifikasi setelah push).

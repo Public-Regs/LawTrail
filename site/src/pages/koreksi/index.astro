@@ -1,0 +1,47 @@
+---
+import Base from "../../layouts/Base.astro";
+import { url } from "../../lib/base.js";
+---
+
+<Base
+  title="Koreksi"
+  description="Cara melaporkan kesalahan atau ketidaksesuaian data di LawTrail."
+>
+  <p><a href={url("/")}>&larr; Daftar peraturan</a></p>
+  <h1>Melaporkan Koreksi</h1>
+
+  <p>
+    LawTrail dibangun otomatis dari situs sumber (lihat <a href={url("/metodologi/")}>metodologi</a>), tapi kesalahan
+    tetap mungkin terjadi — baik karena struktur situs sumber berubah, kesalahan pada scraper, atau ketidaksesuaian
+    antar sumber yang belum sempat terdeteksi.
+  </p>
+
+  <h2>Kalau kamu menemukan data yang salah atau tidak sesuai sumber</h2>
+  <ol>
+    <li>Periksa dulu halaman detail peraturan yang bersangkutan dan bandingkan dengan tautan sumber (primer/pembanding) yang tercantum di sana.</li>
+    <li>
+      Laporkan lewat
+      <a href="https://github.com/hiramaulana/LawTrail/issues/new" target="_blank" rel="noopener">GitHub Issues</a>,
+      sertakan: tautan halaman LawTrail yang bermasalah, tautan ke sumber resmi sebagai pembanding, dan penjelasan singkat
+      ketidaksesuaiannya.
+    </li>
+  </ol>
+
+  <p>
+    Kami tidak menyediakan kontak email untuk menjaga privasi pengelola proyek — semua pelaporan dan diskusi dilakukan
+    terbuka lewat GitHub supaya bisa ditinjau siapa saja.
+  </p>
+
+  <h2>Kalau peraturan yang kamu cari belum ada</h2>
+  <p>
+    Tahap awal LawTrail hanya mencakup Peraturan Menteri Ketenagakerjaan. Jenis peraturan lain belum menjadi
+    cakupan arsip ini. Silakan buka issue juga kalau ingin mengusulkan perluasan cakupan.
+  </p>
+
+  <h2>Kalau kamu punya latar belakang hukum dan ingin meninjau</h2>
+  <p>
+    Tinjauan dari orang berlatar hukum sangat kami hargai, terutama untuk halaman
+    <a href={url("/metodologi/")}>metodologi</a> ini dan bahasa yang dipakai di seluruh situs. Laporkan lewat GitHub
+    Issues di atas kalau ada istilah atau penjelasan yang berpotensi menyesatkan.
+  </p>
+</Base>

@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
-    "astro": "^7.3.6"
+    "astro": "^7.3.6",
+    "cytoscape": "^3.34.3"
   },
   "allowScripts": {
     "esbuild": true

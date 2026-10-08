@@ -1,17 +1,18 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { getAllChanges, getAllRegulations, CHANGE_LABELS } from "../../lib/data.js";
+import { url } from "../../lib/base.js";
 
 const changes = getAllChanges();
 const titleById = new Map(getAllRegulations().map((r) => [r.id, `Permenaker No. ${r.nomor} Tahun ${r.tahun}`]));
 ---
 
 <Base title="Riwayat Perubahan" description="Log perubahan yang terdeteksi pada Peraturan Menteri Ketenagakerjaan.">
-  <p><a href="/">&larr; Daftar peraturan</a></p>
+  <p><a href={url("/")}>&larr; Daftar peraturan</a></p>
   <h1>Riwayat Perubahan</h1>
   <p class="disclaimer">
     Daftar ini dibangkitkan otomatis dari perbandingan data antar pengambilan.
-    Juga tersedia sebagai <a href="/rss.xml">feed RSS</a>.
+    Juga tersedia sebagai <a href={url("/rss.xml")}>feed RSS</a>.
   </p>
 
   {changes.length === 0 ? (
@@ -22,7 +23,7 @@ const titleById = new Map(getAllRegulations().map((r) => [r.id, `Permenaker No. 
         <li>
           <div class="change-date">{entry.date}</div>
           <div>
-            <a href={`/peraturan/${entry.id}/`}>{titleById.get(entry.id) ?? entry.id}</a>
+            <a href={url(`/peraturan/${entry.id}/`)}>{titleById.get(entry.id) ?? entry.id}</a>
             {" — "}{CHANGE_LABELS[entry.type] ?? entry.type}
           </div>
         </li>

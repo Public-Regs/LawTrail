@@ -1,5 +1,6 @@
 import rss from "@astrojs/rss";
 import { getAllChanges, getAllRegulations, CHANGE_LABELS } from "../lib/data.js";
+import { url } from "../lib/base.js";
 
 export function GET(context) {
   const titleById = new Map(
@@ -13,7 +14,7 @@ export function GET(context) {
     site: context.site ?? "https://lawtrail.example",
     items: changes.map((entry) => ({
       title: `${titleById.get(entry.id) ?? entry.id} — ${CHANGE_LABELS[entry.type] ?? entry.type}`,
-      link: `/peraturan/${entry.id}/`,
+      link: url(`/peraturan/${entry.id}/`),
       pubDate: new Date(entry.date),
       description: JSON.stringify(entry.detail ?? {}),
     })),

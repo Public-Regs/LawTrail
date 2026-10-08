@@ -41,6 +41,20 @@ a:hover {
   padding: 1rem 1.25rem 3rem;
 }
 
+.top-banner {
+  background: #fff3cd;
+  color: #664d03;
+  border-bottom: 1px solid #ffe69c;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.top-banner a {
+  color: #664d03;
+  font-weight: 600;
+}
+
 header.site-header {
   border-bottom: 1px solid var(--color-border);
 }
@@ -190,4 +204,78 @@ section.relations ul {
 .timeline .change-date {
   font-size: 0.8rem;
   color: var(--color-muted);
+}
+
+.graph-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  font-size: 0.85rem;
+  margin: 0.75rem 0;
+}
+
+.graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 0.75rem;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.legend-line {
+  display: inline-block;
+  width: 24px;
+  border-top: 2px solid;
+}
+
+.legend-solid {
+  border-top-style: solid;
+}
+
+.legend-dashed {
+  border-top-style: dashed;
+}
+
+.legend-dotted {
+  border-top-style: dotted;
+}
+
+.graph-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 16rem;
+  gap: 1rem;
+}
+
+.graph-canvas {
+  height: 420px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.graph-panel {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  min-height: 420px;
+}
+
+@media (max-width: 640px) {
+  .graph-layout {
+    grid-template-columns: 1fr;
+  }
+  .graph-canvas {
+    height: 320px;
+  }
+  .graph-panel {
+    min-height: auto;
+  }
 }
