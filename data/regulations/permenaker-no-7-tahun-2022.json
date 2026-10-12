@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-7-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 7 Tahun 2022 tentang Petunjuk Teknis Penilaian Angka Kredit Jabatan Fungsional Instruktur",
+  "nomor": "7",
+  "pembanding": {
+    "id_situs": 2207,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2207/peraturan-menteri-ketenagakerjaan-nomor-7-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 231398,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264856/Permenaker%20Nomor%207%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231398/permenaker-no-7-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor: KEP.252/MEN.X/2004 tentang Petunjuk Teknis Jabatan Fungsional Instruktur dan Angka Kreditnya",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN.2022/No.695, peraturan.go.id: 18 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-07-25",
+  "tanggal_penetapan": "2022-07-22",
+  "tanggal_pengundangan": "2022-07-25",
+  "tempat_penetapan": "Jakarta"
+}

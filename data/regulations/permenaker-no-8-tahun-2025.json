@@ -1,0 +1,46 @@
+{
+  "id": "permenaker-no-8-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 8 Tahun 2025 tentang Pedoman Pemberian Bantuan Pemerintah Program Pemagangan Lulusan Perguruan Tinggi",
+  "nomor": "8",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 330637,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/392646/permenaker-no-8-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/330637/permenaker-no-8-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-9-tahun-2026",
+      "target_title": "Permenaker No. 9 Tahun 2026",
+      "target_url": "https://peraturan.bpk.go.id/Details/350748/permenaker-no-9-tahun-2026",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-12-tahun-2026",
+      "target_title": "Permenaker No. 12 Tahun 2026",
+      "target_url": "https://peraturan.bpk.go.id/Details/353711/permenaker-no-12-tahun-2026",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-11-tahun-2025",
+      "target_title": "Permenaker No. 11 Tahun 2025",
+      "target_url": "https://peraturan.bpk.go.id/Details/334805/permenaker-no-11-tahun-2025",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "BANTUAN, SUMBANGAN, BENCANA / KEBENCANAAN, DAN PENANGGULANGAN BENCANA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN 2025 (730); 9 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-09-30",
+  "tanggal_penetapan": "2025-09-29",
+  "tanggal_pengundangan": "2025-09-30",
+  "tempat_penetapan": "Jakarta"
+}

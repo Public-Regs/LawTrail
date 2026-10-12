@@ -1,0 +1,164 @@
+{
+  "id": "permenaker-no-23-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 23 Tahun 2021 tentang Pencabutan Peraturan Menteri Ketenagakerjaan Sebagai Akibat Diundangkannya Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja Beserta Peraturan Pelaksanaan",
+  "nomor": "23",
+  "pembanding": {
+    "id_situs": 2037,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2037/peraturan-menteri-ketenagakerjaan-nomor-23-tahun-2021"
+  },
+  "primer": {
+    "id_situs": 195996,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189835/Permenaker%20Nomor%2023%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195996/permenaker-no-23-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-18-tahun-2020",
+      "target_title": "Permenaker No. 18 Tahun 2020",
+      "target_url": "https://peraturan.bpk.go.id/Details/163403/permenaker-no-18-tahun-2020",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-11-tahun-2019",
+      "target_title": "Permenaker No. 11 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145267/permenaker-no-11-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-15-tahun-2018",
+      "target_title": "Permenaker No. 15 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/146307/permenaker-no-15-tahun-2018",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-22-tahun-2017",
+      "target_title": "Permenaker No. 22 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/146277/permenaker-no-22-tahun-2017",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-21-tahun-2016",
+      "target_title": "Permenaker No. 21 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146166/permenaker-no-21-tahun-2016",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-20-tahun-2016",
+      "target_title": "Permenaker No. 20 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146156/permenaker-no-20-tahun-2016",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-6-tahun-2015",
+      "target_title": "Permenaker No. 6 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145973/permenaker-no-6-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-5-tahun-2015",
+      "target_title": "Permenaker No. 5 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145975/permenaker-no-5-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-4-tahun-2015",
+      "target_title": "Permenaker No. 4 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145970/permenaker-no-4-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-3-tahun-2015",
+      "target_title": "Permenaker No. 3 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145969/permenaker-no-3-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-27-tahun-2014",
+      "target_title": "Permenaker No. 27 Tahun 2014",
+      "target_url": "https://peraturan.bpk.go.id/Details/146433/permenaker-no-27-tahun-2014",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-19-tahun-2012",
+      "target_title": "Permenaker No. 19 Tahun 2012",
+      "target_url": "https://peraturan.bpk.go.id/Details/146432/permenaker-no-19-tahun-2012",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja Nomor PER- 06/MEN/1990 tentang Kewajiban Pengusaha untuk Membuat, Memiliki dan Memelihara Buku Upah",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja Nomor KEP150/MEN/2000  tentang Penyelesaian Pemutusan Hubungan Kerja dan Penetapan Uang Pesangon, Uang Penghargaan Masa Kerja dan Ganti Kerugian di Perusahaan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.231/MEN/2003 tentang Tata Cara Penangguhan Pelaksanaan Upah Minimum",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.51/MEN/IV/2004 tentang Istirahat Panjang pada Perusahaan Tertentu",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.100/MEN/VI/2004 tentang Ketentuan Pelaksanaan Perjanjian Kerja Waktu Tertentu",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.102/MEN/VI/2004 tentang Waktu Kerja Lembur dan Upah Kerja Lembur",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.01/MEN/I/2006 tentang Pelaksanaan Pasal 3 Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.231/MEN/2003 tentang Tata Cara Penangguhan Pelaksanaan Upah Minimum",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2021/No.1257, jdih.kemnaker.go.id : 6 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-11-12",
+  "tanggal_penetapan": "2021-11-12",
+  "tanggal_pengundangan": "2021-11-12",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-27-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 27 Tahun 2015 tentang Waktu Kerja dan Waktu Istirahat Sektor Agribisnis Hortikultura",
+  "nomor": "27",
+  "pembanding": {
+    "id_situs": 1138,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1138/peraturan-menteri-ketenagakerjaan-nomor-27-tahun-2015"
+  },
+  "primer": {
+    "id_situs": 146005,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251933/Kemnaker%20No.%2027%20Tahun%202015.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146005/permenaker-no-27-tahun-2015"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEHUTANAN DAN PERKEBUNAN - KEPEGAWAIAN, APARATUR NEGARA - KETENAGAKERJAAN - PANGAN, PERTANIAN DAN PETERNAKAN"
+  ],
+  "sumber_pengundangan": "BN.2015/No.1511, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-10-15",
+  "tanggal_penetapan": "2015-10-13",
+  "tanggal_pengundangan": "2015-10-15",
+  "tempat_penetapan": "Jakarta"
+}

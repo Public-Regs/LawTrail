@@ -1,0 +1,52 @@
+{
+  "id": "permenaker-no-26-tahun-2014",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 26 Tahun 2014 tentang Penyelenggaraan Penilaian Penerapan Sistem Manajemen Keselamatan dan Kesehatan\r\nKerja",
+  "nomor": "26",
+  "pembanding": {
+    "id_situs": 577,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/577/peraturan-menteri-ketenagakerjaan-nomor-26-tahun-2014"
+  },
+  "primer": {
+    "id_situs": 146448,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138275/Kemnaker%20No.%2026%20Tahun%202014.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146448/permenaker-no-26-tahun-2014"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja Nomor PER.05/MEN/1996 tentang Sistem Manajemen Keselamatan dan Kesehatan Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.18/MEN/XI/2008 tentang Penyelenggara Audit Sistem Manajemen Keselamatan dan Kesehatan Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja Nomor KEP.19/MEN/1997 tentang Pelaksanaan Audit Sistem Manajemen Keselamatan dan Kesehatan Kerja",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2014/No.2031, jdih.kemnaker.go.id : 12 hlm.",
+  "tahun": 2014,
+  "tanggal_berlaku": "2014-12-31",
+  "tanggal_penetapan": "2014-12-31",
+  "tanggal_pengundangan": "2014-12-31",
+  "tempat_penetapan": "Jakarta"
+}

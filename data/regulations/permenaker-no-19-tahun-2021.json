@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-19-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 19 Tahun 2021 tentang Tata Cara Mutasi Pegawai Negeri Sipil di Kementerian Ketenagakerjaan",
+  "nomor": "19",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195989,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189828/Permenaker%20Nomor%2019%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195989/permenaker-no-19-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi PER.18/MEN/V/2006 tentang Tata Cara Pindah Pegawai Negeri Sipil Departemen Tenaga Kerja dan Transmigrasi atas Permintaan Sendiri",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2021/No.1173, jdih.kemnaker.go.id : 11 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-10-19",
+  "tanggal_penetapan": "2021-10-19",
+  "tanggal_pengundangan": "2021-10-19",
+  "tempat_penetapan": "Jakarta"
+}

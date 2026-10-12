@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-1-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 1 Tahun 2024 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 1 Tahun 2022 tentang Organisasi dan Tata Kerja Unit Pelaksana Teknis di Kementerian Ketenagakerjaan",
+  "nomor": "1",
+  "pembanding": {
+    "id_situs": 2431,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2431/peraturan-menteri-ketenagakerjaan-nomor-1-tahun-2024"
+  },
+  "primer": {
+    "id_situs": 276327,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/334844/Permenaker%20No%201%20Tahun%202024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/276327/permenaker-no-1-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-1-tahun-2022",
+      "target_title": "Permenaker No. 1 Tahun 2022",
+      "target_url": "https://peraturan.bpk.go.id/Details/197507/permenaker-no-1-tahun-2022",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2024 (10) : 13 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-01-09",
+  "tanggal_penetapan": "2024-01-04",
+  "tanggal_pengundangan": "2024-01-09",
+  "tempat_penetapan": "Jakarta"
+}

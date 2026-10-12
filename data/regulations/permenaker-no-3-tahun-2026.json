@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-3-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 3 Tahun 2026 tentang Tata Naskah Dinas Kementerian Ketenagakerjaan",
+  "nomor": "3",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 347418,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/410930/permenaker-no-3-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/347418/permenaker-no-3-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-3-tahun-2019",
+      "target_title": "Permenaker No. 3 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/163434/permenaker-no-3-tahun-2019",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PEDOMAN PENULISAN / TATA NASKAH DINAS"
+  ],
+  "sumber_pengundangan": "BN 2026 (131); 239 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-02-26",
+  "tanggal_penetapan": "2026-02-23",
+  "tanggal_pengundangan": "2026-02-26",
+  "tempat_penetapan": "Jakarta"
+}

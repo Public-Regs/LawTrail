@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-20-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 20 Tahun 2015 tentang Lambang Kementerian Ketenagakerjaan",
+  "nomor": "20",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 145989,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137802/Kemnaker%20No.%2020%20Tahun%202015.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145989/permenaker-no-20-tahun-2015"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Ketentuan mengenai Lambang yang diatur dalam Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.70/MEN/2002 tentang Penetapan Hari Jadi dan Lambang Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ADMINISTRASI DAN TATA USAHA NEGARA"
+  ],
+  "sumber_pengundangan": "BN.2015/No.1239, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-08-20",
+  "tanggal_penetapan": "2015-08-20",
+  "tanggal_pengundangan": "2015-08-20",
+  "tempat_penetapan": "Jakarta"
+}

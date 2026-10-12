@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-4-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 4 Tahun 2026 tentang Indikator Kinerja Kementerian Ketenagakerjaan Tahun 2025-2029",
+  "nomor": "4",
+  "pembanding": {
+    "id_situs": 3022,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/3022/peraturan-menteri-ketenagakerjaan-nomor-4-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 347420,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/410932/permenaker-no-4-tahun-2026.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/347420/permenaker-no-4-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-9-tahun-2022",
+      "target_title": "Permenaker No. 9 Tahun 2022",
+      "target_url": "https://peraturan.bpk.go.id/Details/231401/permenaker-no-9-tahun-2022",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-11-tahun-2021",
+      "target_title": "Permenaker No. 11 Tahun 2021",
+      "target_url": "https://peraturan.bpk.go.id/Details/195979/permenaker-no-11-tahun-2021",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2026 (211); 123 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-04-01",
+  "tanggal_penetapan": "2026-03-30",
+  "tanggal_pengundangan": "2026-04-01",
+  "tempat_penetapan": "Jakarta"
+}

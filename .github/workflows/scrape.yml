@@ -1,0 +1,60 @@
+name: Scrape peraturan
+
+# Jadwal harian DIMATIKAN sejak 2026-10-12.
+#
+# peraturan.bpk.go.id ada di belakang Cloudflare dan menolak permintaan dari
+# alamat IP datacenter, termasuk runner GitHub yang di-host publik: yang
+# diterima adalah halaman "Performing security verification", bukan HTML
+# daftar peraturan. Jadi run terjadwal di sini gagal setiap hari tanpa bisa
+# diperbaiki dari sisi kode. Lihat docs/PLAN.md, "Kendala yang masih terbuka".
+#
+# Sampai ada self-hosted runner (atau jalur akses lain yang disepakati),
+# scrape dijalankan manual dari koneksi biasa:
+#
+#     cd scripts && python run_scrape.py
+#
+# Workflow ini tetap bisa dipicu lewat tombol "Run workflow" untuk menguji
+# apakah blokirnya sudah hilang, dan akan jalan otomatis lagi begitu baris
+# `schedule` di bawah diaktifkan kembali.
+
+on:
+  # schedule:
+  #   - cron: "17 2 * * *" # 09:17 WIB setiap hari
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        working-directory: scripts
+        run: python run_scrape.py
+
+      - name: Commit and push if there are changes
+        run: |
+          git config user.name "lawtrail-bot"
+          git config user.email "hiramaulana@users.noreply.github.com"
+          git add data/ raw/
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan data."
+          else
+            git commit -m "chore: scrape otomatis $(date -u +%Y-%m-%d)"
+            git push
+          fi

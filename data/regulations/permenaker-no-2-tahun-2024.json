@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-2-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 2 Tahun 2024 tentang Pencabutan Peraturan Menteri Ketenagakerjaan Nomor 2 Tahun 2018 tentang Jumlah Jam Minimal Tatap Muka dan Pemberian Honorarium atas Kelebihan Jam Minimal Tatap Muka bagi  Jabatan Fungsional Instruktur sebagaimana telah diubah dengan Peraturan Menteri Ketenagakerjaan Nomor 16 Tahun 2019 tentang Perubahan  atas  Peraturan  Menteri Ketenagakerjaan Nomor 2 Tahun 2018 tentang Jumlah Jam Minimal Tatap Muka dan Pemberian Honorarium atas Kelebihan Jam Minimal Tatap Muka bagi Jabatan Fungsional Instruktur",
+  "nomor": "2",
+  "pembanding": {
+    "id_situs": 2455,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2455/peraturan-menteri-ketenagakerjaan-nomor-2-tahun-2024"
+  },
+  "primer": {
+    "id_situs": 282153,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/341097/Permenaker%20Nomor%202%20Tahun%202024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/282153/permenaker-no-2-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-16-tahun-2019",
+      "target_title": "Permenaker No. 16 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145271/permenaker-no-16-tahun-2019",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-2-tahun-2018",
+      "target_title": "Permenaker No. 2 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/145408/permenaker-no-2-tahun-2018",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "HONORARIUM, GAJI, PENGHASILAN, UANG KEHORMATAN, TUNJANGAN, PENGHARGAAN, HAK LAINNYA"
+  ],
+  "sumber_pengundangan": "BN 2024 (61); 3 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-01-29",
+  "tanggal_penetapan": "2024-01-25",
+  "tanggal_pengundangan": "2024-01-29",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+scripts/full_scrape.log
+.venv/
+venv/
+
+# Catatan pribadi, tidak untuk repo publik
+panduan.html

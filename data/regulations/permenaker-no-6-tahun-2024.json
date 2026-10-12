@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-6-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 6 Tahun 2024 tentang Tata Cara Pendaftaran Kegiatan Lembaga Pelatihan Kerja Pemerintah dan Lembaga Pelatihan Kerja Perusahaan",
+  "nomor": "6",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 288029,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/347257/2024PMNaker006.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/288029/permenaker-no-6-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-17-tahun-2016",
+      "target_title": "Permenaker No. 17 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146126/permenaker-no-17-tahun-2016",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2024 (249), JDIH Kemnaker; 15 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-05-14",
+  "tanggal_penetapan": "2024-05-06",
+  "tanggal_pengundangan": "2024-05-14",
+  "tempat_penetapan": "Jakarta"
+}

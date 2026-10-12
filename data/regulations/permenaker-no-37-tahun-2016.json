@@ -1,0 +1,46 @@
+{
+  "id": "permenaker-no-37-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 37 Tahun 2016 tentang Keselamatan dan Kesehatan Kerja Bejana Tekanan dan Tangki Timbun",
+  "nomor": "37",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146211,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138030/Kemnaker%20No.%2037%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.01/MEN/1982 tentang Bejana Tekanan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Surat Edaran Menteri Tenaga kerja No.SE.06/MEN/1990 tentang Pewarnaan Botol Baja/Tabung Gas Bertekanan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Dirjen Pembinaan Pengawasan Ketenagakerjaan Nomor KEP/75/PPK/XII/2013 tentang Petunjuk Teknis Pembinaan Calon Ahli Keselamatan dan Kesehatan Kerja Bidang Pesawat Uap dan Bejana Tekan, Pesawat Angkat-Angkut, dan Pesawat Tenaga dan Produksi, khusus yang mengatur Calon Ahli Keselamatan dan Kesehatan kerja Bidang Pesawat uang dan Bejana Tekan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2016/No.1988, jdih.kemnaker.go.id : 44 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-12-27",
+  "tanggal_penetapan": "2016-12-27",
+  "tanggal_pengundangan": "2016-12-27",
+  "tempat_penetapan": "Jakarta"
+}

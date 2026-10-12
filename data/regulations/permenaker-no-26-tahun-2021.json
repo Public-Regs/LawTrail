@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-26-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 26 Tahun 2021 tentang Penyelenggaraan Kearsipan Dinamis Kementerian Ketenagakerjaan",
+  "nomor": "26",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 196002,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189841/Permenaker%20Nomor%2026%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/196002/permenaker-no-26-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-15-tahun-2017",
+      "target_title": "Permenaker No. 15 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/146248/permenaker-no-15-tahun-2017",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ARSIP"
+  ],
+  "sumber_pengundangan": "BN.2021/No.1498, jdih.kemnaker.go.id : 9 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-12-31",
+  "tanggal_penetapan": "2021-12-30",
+  "tanggal_pengundangan": "2021-12-31",
+  "tempat_penetapan": "Jakarta"
+}

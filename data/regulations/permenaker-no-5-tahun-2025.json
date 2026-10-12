@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-5-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 5 Tahun 2025 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 10 Tahun 2022 tentang Pedoman Pemberian Bantuan Pemerintah Berupa Subsidi Gaji/Upah bagi Pekerja/Buruh",
+  "nomor": "5",
+  "pembanding": {
+    "id_situs": 2687,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2687/peraturan-menteri-ketenagakerjaan-nomor-5-tahun-2025"
+  },
+  "primer": {
+    "id_situs": 319732,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/381331/permenaker-no-5-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/319732/permenaker-no-5-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2022",
+      "target_title": "Permenaker No. 10 Tahun 2022",
+      "target_url": "https://peraturan.bpk.go.id/Details/231403/permenaker-no-10-tahun-2022",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "SUBSIDI, PSO"
+  ],
+  "sumber_pengundangan": "BN 2025 (385); 16 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-06-03",
+  "tanggal_penetapan": "2025-06-02",
+  "tanggal_pengundangan": "2025-06-03",
+  "tempat_penetapan": "Jakarta"
+}

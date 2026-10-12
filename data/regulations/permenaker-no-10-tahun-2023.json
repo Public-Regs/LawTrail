@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-10-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 10 Tahun 2023 tentang Pedoman Penghitungan Kebutuhan Jabatan Fungsional Pengantar Kerja",
+  "nomor": "10",
+  "pembanding": {
+    "id_situs": 2411,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2411/peraturan-menteri-ketenagakerjaan-nomor-10-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 282463,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/341421/Permenaker%20Nomor%2010%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/282463/permenaker-no-10-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-15-tahun-2015",
+      "target_title": "Permenaker No. 15 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145986/permenaker-no-15-tahun-2015",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "JABATAN / PROFESI / KEAHLIAN / SERTIFIKASI"
+  ],
+  "sumber_pengundangan": "BN 2023 (923); 125 hlm",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-11-22",
+  "tanggal_penetapan": "2023-11-20",
+  "tanggal_pengundangan": "2023-11-22",
+  "tempat_penetapan": "Jakarta"
+}

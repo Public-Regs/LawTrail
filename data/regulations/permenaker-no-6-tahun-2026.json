@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-6-tahun-2026",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 6 Tahun 2026 tentang Penyelenggaraan Sistem Pengendalian Intern Pemerintah dan Penerapan Manajemen Risiko Kementerian Ketenagakerjaan",
+  "nomor": "6",
+  "pembanding": {
+    "id_situs": 3026,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/3026/peraturan-menteri-ketenagakerjaan-nomor-6-tahun-2026"
+  },
+  "primer": {
+    "id_situs": 348694,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/412355/2026pmnaker006.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/348694/permenaker-no-6-tahun-2026"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-13-tahun-2019",
+      "target_title": "Permenaker No. 13 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145269/permenaker-no-13-tahun-2019",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "SISTEM PENGENDALIAN INTERN"
+  ],
+  "sumber_pengundangan": "BN 2026 (248); 68 hlm",
+  "tahun": 2026,
+  "tanggal_berlaku": "2026-04-20",
+  "tanggal_penetapan": "2026-04-15",
+  "tanggal_pengundangan": "2026-04-20",
+  "tempat_penetapan": "Jakarta"
+}

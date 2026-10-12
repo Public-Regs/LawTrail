@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-14-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 14 Tahun 2016 tentang Pakaian Dinas Pegawai Aparatur Sipil Negara Kementerian Ketenagakerjaan",
+  "nomor": "14",
+  "pembanding": {
+    "id_situs": 1230,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1230/peraturan-menteri-ketenagakerjaan-nomor-14-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 146116,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252194/Kemnaker%20No.%2014%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146116/permenaker-no-14-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor KEP.249/M/2003 tentang Peningkatan Efisiensi Kinerja dan Disiplin Pegawai di Lingkungan Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.25/MEN/VI/2006 tentang Ketentuan Penggunaan Pakaian bagi Pegawai di Lingkungan Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA"
+  ],
+  "sumber_pengundangan": "BN.2016/No.504, jdih.kemnaker.go.id : 10 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-04-04",
+  "tanggal_penetapan": "2016-04-04",
+  "tanggal_pengundangan": "2016-04-04",
+  "tempat_penetapan": "Jakarta"
+}

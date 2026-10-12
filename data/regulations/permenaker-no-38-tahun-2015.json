@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-38-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 38 Tahun 2015 tentang Penyelenggaraan Pendidikan dan Pelatihan Pegawai Aparatur Sipil Negara Ketenagakerjaan",
+  "nomor": "38",
+  "pembanding": {
+    "id_situs": 1189,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1189/peraturan-menteri-ketenagakerjaan-nomor-38-tahun-2015"
+  },
+  "primer": {
+    "id_situs": 146037,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251984/Kemnaker%20No.%2038%20Tahun%202015.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146037/permenaker-no-38-tahun-2015"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Kepmenakertrans Nomor 07/MEN/2004 tentang Pedoman Umum Pendidikan dan Pelatihan Aparatur Ketenagakerjaan dan Ketransmigrasian",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - PENDIDIKAN"
+  ],
+  "sumber_pengundangan": "BN.2015/No.1918, jdih.kemnaker.go.id : 18 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-12-22",
+  "tanggal_penetapan": "2015-12-22",
+  "tanggal_pengundangan": "2015-12-22",
+  "tempat_penetapan": "Jakarta"
+}

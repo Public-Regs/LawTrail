@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-1-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 1 Tahun 2025 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 5 Tahun 2021 tentang Tata Cara Penyelenggaraan Program Jaminan Kecelakaan Kerja, Jaminan Kematian, dan Jaminan Hari Tua",
+  "nomor": "1",
+  "pembanding": {
+    "id_situs": 2642,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2642/peraturan-menteri-ketenagakerjaan-nomor-1-tahun-2025"
+  },
+  "primer": {
+    "id_situs": 314658,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/375649/permenaker-no-1-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/314658/permenaker-no-1-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-5-tahun-2021",
+      "target_title": "Permenaker No. 5 Tahun 2021",
+      "target_url": "https://peraturan.bpk.go.id/Details/195976/permenaker-no-5-tahun-2021",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2025 (118); 39 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-02-24",
+  "tanggal_penetapan": "2025-02-18",
+  "tanggal_pengundangan": "2025-02-24",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-5-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 5 Tahun 2017 tentang Pedoman Penyusunan Standar Operasional Prosedur Administrasi Pemerintahan Kementerian Ketenagakerjaan",
+  "nomor": "5",
+  "pembanding": {
+    "id_situs": 1492,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1492/peraturan-menteri-ketenagakerjaan-nomor-5-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 145519,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137326/Kemnaker%20No.%205%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145519/permenaker-no-5-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.01/MEN/I/2011 tentang Pedoman Penyusunan Standar Operasional Prosedur (SOP) Administrasi Pemerintahan di Lingkungan Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.746, jdih.kemnaker.go.id : 10 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-05-24",
+  "tanggal_penetapan": "2017-05-24",
+  "tanggal_pengundangan": "2017-05-24",
+  "tempat_penetapan": "Jakarta"
+}

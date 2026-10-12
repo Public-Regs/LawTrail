@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-8-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 8 Tahun 2024 tentang Tata Kelola Pengawasan Intern di Kementerian Ketenagakerjaan",
+  "nomor": "8",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 311203,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/371879/permenaker-no-8-tahun-2024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/311203/permenaker-no-8-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-24-tahun-2016",
+      "target_title": "Permenaker No. 24 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146172/permenaker-no-24-tahun-2016",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2024 (818); 15 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-11-08",
+  "tanggal_penetapan": "2024-11-05",
+  "tanggal_pengundangan": "2024-11-08",
+  "tempat_penetapan": "Jakarta"
+}

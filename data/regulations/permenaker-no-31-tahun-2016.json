@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-31-tahun-2016",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 31 Tahun 2016 tentang Perjalanan Dinas Pindah/Mutasi Dalam Negeri dan Luar Negeri Serta Pindah Pensiun Pegawai di Kementerian Ketenagakerjaan",
+  "nomor": "31",
+  "pembanding": {
+    "id_situs": 1354,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1354/peraturan-menteri-ketenagakerjaan-nomor-31-tahun-2016"
+  },
+  "primer": {
+    "id_situs": 146201,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252333/Kemnaker%20No.%2031%20Tahun%202016.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146201/permenaker-no-31-tahun-2016"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor 3 Tahun 2012 tentang Perjalanan Dinas Pindah/Mutasi Dalam Negeri dan Luar Negeri Serta Pindah Pensiun Pegawai di Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA"
+  ],
+  "sumber_pengundangan": "BN.2016/No.1527, jdih.kemnaker.go.id : 15 hlm.",
+  "tahun": 2016,
+  "tanggal_berlaku": "2016-10-14",
+  "tanggal_penetapan": "2016-10-14",
+  "tanggal_pengundangan": "2016-10-14",
+  "tempat_penetapan": "Jakarta"
+}

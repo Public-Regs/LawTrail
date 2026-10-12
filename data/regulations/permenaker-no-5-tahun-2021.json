@@ -1,0 +1,60 @@
+{
+  "id": "permenaker-no-5-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 5 Tahun 2021 tentang Tata Cara Penyelenggaraan Program Jaminan Kecelakaan Kerja, Jaminan Kematian, dan Jaminan Hari Tua",
+  "nomor": "5",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195976,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/257489/Permenaker%20Nomor%205%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195976/permenaker-no-5-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-1-tahun-2025",
+      "target_title": "Permenaker No. 1 Tahun 2025",
+      "target_url": "https://peraturan.bpk.go.id/Details/314658/permenaker-no-1-tahun-2025",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-21-tahun-2017",
+      "target_title": "Permenaker No. 21 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/146276/permenaker-no-21-tahun-2017",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-1-tahun-2016",
+      "target_title": "Permenaker No. 1 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146096/permenaker-no-1-tahun-2016",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-44-tahun-2015",
+      "target_title": "Permenaker No. 44 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146043/permenaker-no-44-tahun-2015",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-26-tahun-2015",
+      "target_title": "Permenaker No. 26 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/146004/permenaker-no-26-tahun-2015",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ASURANSI - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2021/No.247, jdih.kemnaker.go.id : 86 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-04-01",
+  "tanggal_penetapan": "2021-03-31",
+  "tanggal_pengundangan": "2021-04-01",
+  "tempat_penetapan": "Jakarta"
+}

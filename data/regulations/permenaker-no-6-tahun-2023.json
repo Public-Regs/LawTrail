@@ -1,0 +1,45 @@
+{
+  "id": "permenaker-no-6-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 6 Tahun 2023 tentang Tata Kelola Kendaraan Dinas di Kementerian Ketenagakerjaan",
+  "nomor": "6",
+  "pembanding": {
+    "id_situs": 2301,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2301/peraturan-menteri-ketenagakerjaan-nomor-6-tahun-2023"
+  },
+  "primer": {
+    "id_situs": 248392,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/304719/Permenaker%20Nomor%206%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/248392/permenaker-no-6-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.23/MEN/XII/2005 tentang Penggunaan dan Standar Pengadaan Kendaraan Dinas di Lingkungan Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.09/MEN/IV/2006 tentang Perubahan atas Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.23/MEN/XII/2005 tentang Penggunaan dan Standar Pengadaan Kendaraan Dinas di Lingkungan Departemen Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PENGELOLAAN BARANG MILIK NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2023/No.282, peraturan.go.id: 10 hlm.",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-03-29",
+  "tanggal_penetapan": "2023-03-28",
+  "tanggal_pengundangan": "2023-03-29",
+  "tempat_penetapan": "Jakarta"
+}

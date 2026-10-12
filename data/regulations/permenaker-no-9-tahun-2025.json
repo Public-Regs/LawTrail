@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-9-tahun-2025",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 9 Tahun 2025 tentang Rencana Strategis Kementerian Ketenagakerjaan Tahun 2025-2029",
+  "nomor": "9",
+  "pembanding": {
+    "id_situs": 2776,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2776/peraturan-menteri-ketenagakerjaan-nomor-9-tahun-2025"
+  },
+  "primer": {
+    "id_situs": 332124,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/394175/permenaker-no-9-tahun-2025.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/332124/permenaker-no-9-tahun-2025"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2021",
+      "target_title": "Permenaker No. 10 Tahun 2021",
+      "target_url": "https://peraturan.bpk.go.id/Details/195978/permenaker-no-10-tahun-2021",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PROGRAM, RENCANA PEMBANGUNAN DAN RENCANA KERJA"
+  ],
+  "sumber_pengundangan": "BN 2025 (818); 128 hlm",
+  "tahun": 2025,
+  "tanggal_berlaku": "2025-10-15",
+  "tanggal_penetapan": "2025-10-10",
+  "tanggal_pengundangan": "2025-10-15",
+  "tempat_penetapan": "Jakarta"
+}

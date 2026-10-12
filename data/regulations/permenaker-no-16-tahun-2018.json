@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-16-tahun-2018",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 16 Tahun 2018 tentang Manajemen Talenta Pegawai Negeri Sipil Kementerian Ketenagakerjaan",
+  "nomor": "16",
+  "pembanding": {
+    "id_situs": 1576,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1576/peraturan-menteri-ketenagakerjaan-nomor-16-tahun-2018"
+  },
+  "primer": {
+    "id_situs": 146309,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138132/Kemnaker%20No.%2016%20Tahun%202018.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146309/permenaker-no-16-tahun-2018"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA - PERIZINAN, PELAYANAN PUBLIK"
+  ],
+  "sumber_pengundangan": "BN.2018/No.1597, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2018,
+  "tanggal_berlaku": "2018-12-07",
+  "tanggal_penetapan": "2018-12-07",
+  "tanggal_pengundangan": "2018-12-07",
+  "tempat_penetapan": "Jakarta"
+}

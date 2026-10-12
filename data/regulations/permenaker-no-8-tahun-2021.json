@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-8-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 8 Tahun 2021 tentang Peraturan Pelaksanaan Peraturan Pemerintah Nomor 34 Tahun 2021 Tentang Penggunaan Tenaga Kerja Asing",
+  "nomor": "8",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 171228,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/164392/No%208%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/171228/permenaker-no-8-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2018",
+      "target_title": "Permenaker No. 10 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/146295/permenaker-no-10-tahun-2018",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Menteri Tenaga Kerja dan Transmigrasi Nomor KEP.223/MEN/2003 tentang Jabatan-Jabatan di Lembaga Pendidikan yang Dikecualikan dari Kewajiban Membayar Kompensasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN 2021/NO. 301; PERATURAN.GO.ID: 44 HLM",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-04-01",
+  "tanggal_penetapan": "2021-03-31",
+  "tanggal_pengundangan": "2021-04-01",
+  "tempat_penetapan": "Jakarta"
+}

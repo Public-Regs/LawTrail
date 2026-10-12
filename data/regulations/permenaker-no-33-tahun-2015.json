@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-33-tahun-2015",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 33 Tahun 2015 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 12 Tahun 2015 tentang Keselamatan dan Kesehatan Kerja Listrik di Tempat Kerja",
+  "nomor": "33",
+  "pembanding": {
+    "id_situs": 1156,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1156/peraturan-menteri-ketenagakerjaan-nomor-33-tahun-2015"
+  },
+  "primer": {
+    "id_situs": 146032,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251954/Kemnaker%20No.%2033%20Tahun%202015.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146032/permenaker-no-33-tahun-2015"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-12-tahun-2015",
+      "target_title": "Permenaker No. 12 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145984/permenaker-no-12-tahun-2015",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KESEHATAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2015/No.1535, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2015,
+  "tanggal_berlaku": "2015-10-20",
+  "tanggal_penetapan": "2015-10-16",
+  "tanggal_pengundangan": "2015-10-20",
+  "tempat_penetapan": "Jakarta"
+}

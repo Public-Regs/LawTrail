@@ -1,0 +1,89 @@
+---
+import Base from "../../layouts/Base.astro";
+import { url } from "../../lib/base.js";
+---
+
+<Base
+  title="Metodologi"
+  description="Cara kerja, sumber data, dan keterbatasan arsip LawTrail."
+>
+  <p><a href={url("/")}>&larr; Daftar peraturan</a></p>
+  <h1>Metodologi dan Keterbatasan</h1>
+
+  <p class="disclaimer">
+    LawTrail bukan nasihat hukum dan bukan sumber resmi. Untuk kepastian status
+    hukum suatu peraturan, selalu rujuk langsung ke
+    <a href="https://peraturan.bpk.go.id" target="_blank" rel="noopener">peraturan.bpk.go.id</a>
+    atau instansi penerbit peraturan tersebut.
+  </p>
+
+  <h2>Apa yang dilakukan arsip ini</h2>
+  <ul>
+    <li>Mengambil data Peraturan Menteri Ketenagakerjaan dari situs sumber secara otomatis dan terjadwal.</li>
+    <li>Menyimpan metadata (nomor, tahun, judul, tanggal, status, subjek) dan relasi antar peraturan (mengubah, diubah dengan, mencabut, dicabut dengan, menetapkan) persis seperti yang tertulis di sumber.</li>
+    <li>Membandingkan data dari dua situs — <strong>peraturan.bpk.go.id</strong> sebagai sumber primer dan <strong>jdih.kemnaker.go.id</strong> sebagai pembanding — dan menampilkan keduanya apa adanya, termasuk kalau statusnya berbeda.</li>
+    <li>Mencatat setiap perubahan yang terdeteksi antar pengambilan data (peraturan baru, status berubah, relasi berubah, dokumen berubah, atau peraturan yang tidak lagi ditemukan di sumber) di halaman <a href={url("/perubahan/")}>Riwayat Perubahan</a>.</li>
+    <li>Menampilkan tanggal "terakhir dicek" untuk setiap peraturan secara terpisah dari isi peraturan itu sendiri.</li>
+  </ul>
+
+  <h2>Apa yang TIDAK dilakukan arsip ini</h2>
+  <ul>
+    <li><strong>Tidak menyimpulkan</strong> apakah suatu peraturan "berlaku" secara final — status yang ditampilkan adalah status yang tertulis di situs sumber pada tanggal pengambilan, bukan penilaian hukum.</li>
+    <li><strong>Tidak menyusun versi konsolidasi</strong> (naskah gabungan hasil beberapa kali perubahan). Setiap peraturan ditautkan ke dokumen aslinya di sumber.</li>
+    <li><strong>Tidak menyimpan file PDF asli</strong> di dalam arsip ini — hanya metadata, hash SHA-256 untuk deteksi perubahan isi dokumen, dan tautan ke PDF di situs sumber.</li>
+    <li><strong>Tidak memberi opini atau nasihat hukum</strong> dalam bentuk apa pun.</li>
+  </ul>
+
+  <h2>Sumber data</h2>
+  <dl class="metadata">
+    <dt>Primer</dt>
+    <dd>
+      <a href="https://peraturan.bpk.go.id" target="_blank" rel="noopener">peraturan.bpk.go.id</a>
+      — dipakai karena menyediakan teks lengkap peraturan dan daftar relasi yang paling terkategori.
+    </dd>
+    <dt>Pembanding</dt>
+    <dd>
+      <a href="https://jdih.kemnaker.go.id" target="_blank" rel="noopener">jdih.kemnaker.go.id</a>
+      — portal resmi Kementerian Ketenagakerjaan, dipakai untuk cross-check status.
+    </dd>
+  </dl>
+  <p>
+    Pengambilan data berjalan otomatis lewat GitHub Actions, menghormati <code>robots.txt</code> kedua situs,
+    dengan jeda minimal 2 detik antar permintaan dan User-Agent yang jelas.
+  </p>
+
+  <h2>Keterbatasan yang sudah ditemukan</h2>
+  <p>Daftar ini akan diperbarui begitu ada temuan baru — bukan daftar tertutup.</p>
+  <ul>
+    <li>
+      Per pemeriksaan terakhir, sejumlah peraturan punya status yang <strong>berbeda</strong> antara peraturan.bpk.go.id dan
+      jdih.kemnaker.go.id (satu bilang "Berlaku", yang lain "Tidak Berlaku"). Arsip ini menampilkan kedua status tanpa
+      memutuskan mana yang benar — lihat halaman detail peraturan masing-masing untuk perbandingannya.
+    </li>
+    <li>
+      Tidak semua peraturan di peraturan.bpk.go.id berhasil dicocokkan dengan entri di jdih.kemnaker.go.id. Sebagian
+      besar kasus ini genuinely tidak terindeks di Kemnaker (terutama peraturan lama), bukan kesalahan pencocokan.
+    </li>
+    <li>
+      Dokumen PDF yang disajikan jdih.kemnaker.go.id untuk sebagian peraturan ditemukan memuat kata "RANCANGAN" di
+      baris pertama meski disajikan sebagai peraturan yang sudah berlaku — kemungkinan sisa template yang tidak
+      dibersihkan oleh situs sumber. Arsip ini belum memverifikasi dampaknya secara menyeluruh.
+    </li>
+    <li>
+      Riwayat perubahan baru mulai tercatat sejak arsip ini dibuat — perubahan yang terjadi sebelum tanggal itu tidak
+      tertangkap.
+    </li>
+  </ul>
+
+  <h2>Lisensi dan hak cipta</h2>
+  <p>
+    Kode sumber arsip ini berlisensi MIT. Teks peraturan dan metadata yang ditampilkan tetap mengikuti ketentuan hak
+    cipta/hak milik negara dari sumber aslinya — arsip ini hanya menyalin fakta yang sudah dipublikasikan secara
+    terbuka oleh instansi pemerintah.
+  </p>
+
+  <h2>Menemukan kesalahan?</h2>
+  <p>
+    Lihat halaman <a href={url("/koreksi/")}>Koreksi</a> untuk cara melaporkannya.
+  </p>
+</Base>

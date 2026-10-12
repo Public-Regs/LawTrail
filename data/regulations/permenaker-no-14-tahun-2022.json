@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-14-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 14 Tahun 2022 tentang Tata Cara Pengusulan dan Seleksi Administratif Calon Hakim AdHoc pada Pengadilan Hubungan Industrial",
+  "nomor": "14",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 231408,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264908/Permenaker%20Nomor%2014%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231408/permenaker-no-14-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.01/MEN/XII/2004 tentang Tata Cara Seleksi Calon Hakim Ad-Hoc Pengadilan Hubungan Industrial dan Calon Hakim AdHoc  pada Mahkamah Agung",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "HUKUM ACARA DAN PERADILAN - KETENAGAKERJAAN"
+  ],
+  "sumber_pengundangan": "BN.2022/No.1037, peraturan.go.id: 12 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-10-11",
+  "tanggal_penetapan": "2022-10-10",
+  "tanggal_pengundangan": "2022-10-11",
+  "tempat_penetapan": "Jakarta"
+}

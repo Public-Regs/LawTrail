@@ -1,0 +1,66 @@
+{
+  "id": "permenaker-no-6-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 6 Tahun 2017 tentang Keselamatan dan Kesehatan Kerja Elevator dan Eskalator",
+  "nomor": "6",
+  "pembanding": {
+    "id_situs": 1498,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1498/peraturan-menteri-ketenagakerjaan-nomor-6-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 145520,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251564/Kemnaker%20No.%206%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145520/permenaker-no-6-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.03/MEN/1999 tentang Syarat-syarat Keselamatan dan Kesehatan Kerja Lift untuk Pengangkutan Orang dan Barang",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenaker Nomor PER.05/MEN/1985 tentang Pesawat Angkat dan Angkut sepanjang mengatur Ekskalator",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenaker Nomor 32 Tahun 2015 tentang Perubahan atas Permenakertrans Nomor PER.03/MEN/1999 tentang Syarat-syarat Keselamatan dan Kesehatan Kerja Lift untuk Pengangkutan Orang dan Barang",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenakertrans Nomor PER.09/MEN/VII/2010 tentang Operator dan Petugas Pesawat Angkat dan Angkut sepanjang mengatur operator Eskalator",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Keputusan Dirjen Pembinaan Hubungan Industrial dan Pengawasan Ketenagakerjaan Nomor KEP.407/BW/1999 tentang Persyaratan, Penunjukan, Hak dan Kewajiban Teknisi Lift",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.909, jdih.kemnaker.go.id : 59 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-07-06",
+  "tanggal_penetapan": "2017-07-06",
+  "tanggal_pengundangan": "2017-07-06",
+  "tempat_penetapan": "Jakarta"
+}

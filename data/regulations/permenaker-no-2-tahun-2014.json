@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-2-tahun-2014",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 2 Tahun 2014 tentang Standar Pelayanan Minimal Bidang Ketenagakerjaan",
+  "nomor": "2",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 146449,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138276/Kemnaker%20No.%203%20Tahun%202014.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146449/permenaker-no-2-tahun-2014"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.15/MEN/X/2010 tentang Standar Pelayanan Minimal Bidang ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.04/MEN/IV/2011 tentang Perubahan Atas Lampiran Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.15/MEN/X/2010 tentang Standar Pelayanan Minimal Bidang Ketenagakerjaan",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PERIZINAN, PELAYANAN PUBLIK"
+  ],
+  "sumber_pengundangan": "BN.2014/No.211, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2014,
+  "tanggal_berlaku": "2014-02-12",
+  "tanggal_penetapan": "2014-02-12",
+  "tanggal_pengundangan": "2014-02-12",
+  "tempat_penetapan": "Jakarta"
+}

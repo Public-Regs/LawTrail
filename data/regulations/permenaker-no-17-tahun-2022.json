@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-17-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 17 Tahun 2022 tentang Pakaian Dinas Pejabat Fungsional Pengantar Kerja",
+  "nomor": "17",
+  "pembanding": {
+    "id_situs": 2258,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2258/peraturan-menteri-ketenagakerjaan-nomor-17-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 231411,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264931/Permenaker%20Nomor%2017%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231411/permenaker-no-17-tahun-2022"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-19-tahun-2019",
+      "target_title": "Permenaker No. 19 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145274/permenaker-no-19-tahun-2019",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA"
+  ],
+  "sumber_pengundangan": "BN.2022/No.1155, jdih.kemnaker.go.id: 7 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-11-15",
+  "tanggal_penetapan": "2022-11-14",
+  "tanggal_pengundangan": "2022-11-15",
+  "tempat_penetapan": "Jakarta"
+}

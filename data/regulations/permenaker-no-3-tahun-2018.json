@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-3-tahun-2018",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 3 Tahun 2018 tentang Pelaksanaan Tugas Pembantuan Tahun Anggaran 2018",
+  "nomor": "3",
+  "pembanding": {
+    "id_situs": 1542,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1542/peraturan-menteri-ketenagakerjaan-nomor-3-tahun-2018"
+  },
+  "primer": {
+    "id_situs": 145411,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137214/Kemnaker%20No.%203%20Tahun%202018.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145411/permenaker-no-3-tahun-2018"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "OTONOMI DAERAH DAN PEMERINTAH DAERAH - PELIMPAHAN KEWENANGAN / PENUGASAN PEJABAT NEGARA / PENUGASAN BUMN"
+  ],
+  "sumber_pengundangan": "BN.2018/No.502, jdih.kemnaker.go.id : 7 hlm.",
+  "tahun": 2018,
+  "tanggal_berlaku": "2018-04-11",
+  "tanggal_penetapan": "2018-04-11",
+  "tanggal_pengundangan": "2018-04-11",
+  "tempat_penetapan": "Jakarta"
+}

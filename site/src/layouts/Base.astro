@@ -1,0 +1,54 @@
+---
+import "../styles/global.css";
+import { url } from "../lib/base.js";
+
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} · LawTrail` : "LawTrail";
+---
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href={url("/favicon.svg")} />
+    <slot name="head" />
+  </head>
+  <body>
+    <div class="top-banner">
+      Arsip tidak resmi, dibangun otomatis — bukan nasihat hukum. Selalu rujuk{" "}
+      <a href="https://peraturan.bpk.go.id" target="_blank" rel="noopener">sumber resmi</a>.{" "}
+      <a href={url("/metodologi/")}>Baca metodologi &amp; keterbatasan &rarr;</a>
+    </div>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href={url("/")}>LawTrail</a>
+        <nav>
+          <a href={url("/")}>Daftar Peraturan</a>
+          <a href={url("/perubahan/")}>Riwayat Perubahan</a>
+          <a href={url("/metodologi/")}>Metodologi</a>
+          <a href={url("/koreksi/")}>Koreksi</a>
+          <a href={url("/rss.xml")}>RSS</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          LawTrail adalah arsip tidak resmi, dibangun otomatis dari
+          <a href="https://peraturan.bpk.go.id" target="_blank" rel="noopener">peraturan.bpk.go.id</a>
+          dan
+          <a href="https://jdih.kemnaker.go.id" target="_blank" rel="noopener">jdih.kemnaker.go.id</a>.
+          Bukan nasihat hukum — selalu rujuk sumber resmi untuk kepastian status peraturan.
+          Lihat <a href={url("/metodologi/")}>metodologi &amp; batasan</a> atau
+          <a href={url("/koreksi/")}>laporkan koreksi</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

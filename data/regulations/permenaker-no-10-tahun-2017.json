@@ -1,0 +1,52 @@
+{
+  "id": "permenaker-no-10-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 10 Tahun 2017 tentang Pedoman Pemberian Tunjangan Kinerja bagi Pegawai Kementerian Ketenagakerjaan",
+  "nomor": "10",
+  "pembanding": {
+    "id_situs": 1503,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Tidak Berlaku",
+    "status_cocok": false,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1503/peraturan-menteri-ketenagakerjaan-nomor-10-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 145522,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251620/Kemnaker%20No.%2010%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145522/permenaker-no-10-tahun-2017"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-22-tahun-2019",
+      "target_title": "Permenaker No. 22 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145277/permenaker-no-22-tahun-2019",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-14-tahun-2018",
+      "target_title": "Permenaker No. 14 Tahun 2018",
+      "target_url": "https://peraturan.bpk.go.id/Details/146306/permenaker-no-14-tahun-2018",
+      "type": "diubah_dengan"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": null,
+      "target_title": "Permenaker Nomor 6 Tahun 2014 tentang Pedoman Pemberian Tunjangan Kinerja bagi Pegawai Kementerian Tenaga Kerja dan Transmigrasi",
+      "target_url": null,
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "HONORARIUM, GAJI, PENGHASILAN, UANG KEHORMATAN, TUNJANGAN, PENGHARGAAN, HAK LAINNYA - KEPEGAWAIAN, APARATUR NEGARA - KETENAGAKERJAAN - STANDAR / PEDOMAN"
+  ],
+  "sumber_pengundangan": "BN.2017/No.1142, jdih.kemnaker.go.id : 26 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2017-08-18",
+  "tanggal_penetapan": "2017-08-18",
+  "tanggal_pengundangan": "2017-08-18",
+  "tempat_penetapan": "Jakarta"
+}

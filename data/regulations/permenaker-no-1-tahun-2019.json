@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-1-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 1 Tahun 2019 tentang Pelaksanaan Dekonsentrasi Kementerian Ketenagakerjaan Tahun Anggaran 2019",
+  "nomor": "1",
+  "pembanding": {
+    "id_situs": 1587,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1587/peraturan-menteri-ketenagakerjaan-nomor-1-tahun-2019"
+  },
+  "primer": {
+    "id_situs": 145245,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/251114/Permenaker%20No.%201%20Tahun%202019.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145245/permenaker-no-1-tahun-2019"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "APBN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - PENGELOLAAN KEUANGAN NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2019/No.1, jdih.kemnaker.go.id : 6 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-01-01",
+  "tanggal_penetapan": "2019-01-02",
+  "tanggal_pengundangan": "2019-01-02",
+  "tempat_penetapan": "Jakarta"
+}

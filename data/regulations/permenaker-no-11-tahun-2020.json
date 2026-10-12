@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-11-tahun-2020",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2020 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 14 Tahun 2019 tentang Pedoman Penerapan, Penilaian, dan Reviu Pengendalian Intern atas Pelaporan Keuangan Kementerian Ketenagakerjaan",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 1672,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1672/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2020"
+  },
+  "primer": {
+    "id_situs": 146441,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/138268/Permenaker%20Nomor%2011%20Tahun%202020.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146441/permenaker-no-11-tahun-2020"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-14-tahun-2019",
+      "target_title": "Permenaker No. 14 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/146443/permenaker-no-14-tahun-2019",
+      "type": "mengubah"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PENGELOLAAN KEUANGAN NEGARA / DAERAH - SISTEM PENGENDALIAN INTERN"
+  ],
+  "sumber_pengundangan": "BN.2020/No.772, jdih.kemnaker.go.id : 4 hlm.",
+  "tahun": 2020,
+  "tanggal_berlaku": "2020-07-15",
+  "tanggal_penetapan": "2020-07-14",
+  "tanggal_pengundangan": "2020-07-15",
+  "tempat_penetapan": "Jakarta"
+}

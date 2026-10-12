@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-18-tahun-2019",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 18 Tahun 2019 tentang Konfirmasi Status Wajib Pajak dalam Pemberian Layanan Publik Tertentu di Kementerian Ketenagakerjaan",
+  "nomor": "18",
+  "pembanding": {
+    "id_situs": 1620,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1620/peraturan-menteri-ketenagakerjaan-nomor-18-tahun-2019"
+  },
+  "primer": {
+    "id_situs": 145273,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/137077/Permenaker%20No.%2018%20Tahun%202019.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145273/permenaker-no-18-tahun-2019"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PERIZINAN, PELAYANAN PUBLIK - PERPAJAKAN"
+  ],
+  "sumber_pengundangan": "BN.2019/No.1146, jdih.kemnaker.go.id : 8 hlm.",
+  "tahun": 2019,
+  "tanggal_berlaku": "2019-10-08",
+  "tanggal_penetapan": "2019-10-07",
+  "tanggal_pengundangan": "2019-10-08",
+  "tempat_penetapan": "Jakarta"
+}

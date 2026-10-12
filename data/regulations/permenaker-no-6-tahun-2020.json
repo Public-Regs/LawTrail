@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-6-tahun-2020",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 6 Tahun 2020 tentang Penyelenggaraan Pemagangan di Dalam Negeri",
+  "nomor": "6",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 145067,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/136870/Permenaker%20Nomor%206%20Tahun%202020.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/145067/permenaker-no-6-tahun-2020"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-36-tahun-2016",
+      "target_title": "Permenaker No. 36 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/145068/permenaker-no-36-tahun-2016",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "KETENAGAKERJAAN - PENDIDIKAN"
+  ],
+  "sumber_pengundangan": "BN.2020/No.351, jdih.kemnaker.go.id : 17 hlm.",
+  "tahun": 2020,
+  "tanggal_berlaku": "2020-04-09",
+  "tanggal_penetapan": "2020-04-07",
+  "tanggal_pengundangan": "2020-04-09",
+  "tempat_penetapan": "Jakarta"
+}

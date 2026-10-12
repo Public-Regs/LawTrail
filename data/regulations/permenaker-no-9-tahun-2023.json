@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-9-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 9 Tahun 2023 tentang Peta Proses Bisnis Kementerian Ketenagakerjaan",
+  "nomor": "9",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 271215,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/329190/2023PMNaker009.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/271215/permenaker-no-9-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-19-tahun-2016",
+      "target_title": "Permenaker No. 19 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146129/permenaker-no-19-tahun-2016",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "ADMINISTRASI DAN TATA USAHA NEGARA - PROGRAM, RENCANA PEMBANGUNAN DAN RENCANA KERJA"
+  ],
+  "sumber_pengundangan": "BN 2023 (773) : 7 hlm.; jdih.kemnaker.go.id",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-09-29",
+  "tanggal_penetapan": "2023-09-27",
+  "tanggal_pengundangan": "2023-09-29",
+  "tempat_penetapan": "Jakarta"
+}

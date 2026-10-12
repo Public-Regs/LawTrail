@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-24-tahun-2018",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 24 Tahun 2018 tentang Pelaksanaan Tugas Pembantuan Kementerian Ketenagakerjaan Tahun Anggaran 2019",
+  "nomor": "24",
+  "pembanding": {
+    "id_situs": 1585,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Tidak Berlaku",
+    "status_cocok": false,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1585/peraturan-menteri-ketenagakerjaan-nomor-24-tahun-2018"
+  },
+  "primer": {
+    "id_situs": 146316,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252535/Kemnaker%20No.%2024%20Tahun%202018.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146316/permenaker-no-24-tahun-2018"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-5-tahun-2019",
+      "target_title": "Permenaker No. 5 Tahun 2019",
+      "target_url": "https://peraturan.bpk.go.id/Details/145253/permenaker-no-5-tahun-2019",
+      "type": "diubah_dengan"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "APBN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - PELIMPAHAN KEWENANGAN / PENUGASAN PEJABAT NEGARA / PENUGASAN BUMN - PENGELOLAAN KEUANGAN NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2018/No.1738, jdih.kemnaker.go.id : 6 hlm.",
+  "tahun": 2018,
+  "tanggal_berlaku": "2019-01-01",
+  "tanggal_penetapan": "2018-12-27",
+  "tanggal_pengundangan": "2018-12-27",
+  "tempat_penetapan": "Jakarta"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "permenaker-no-18-tahun-2021",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 18 Tahun 2021 tentang Unit Kerja Pengadaan Barang/Jasa di Kementerian Ketenagakerjaan",
+  "nomor": "18",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 195986,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/189825/Permenaker%20Nomor%2018%20Tahun%202021.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/195986/permenaker-no-18-tahun-2021"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-12-tahun-2016",
+      "target_title": "Permenaker No. 12 Tahun 2016",
+      "target_url": "https://peraturan.bpk.go.id/Details/146114/permenaker-no-12-tahun-2016",
+      "type": "mencabut"
+    },
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-10-tahun-2014",
+      "target_title": "Permenaker No. 10 Tahun 2014",
+      "target_url": "https://peraturan.bpk.go.id/Details/195987/permenaker-no-10-tahun-2014",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PEMBENTUKAN, PERUBAHAN, DAN PEMBUBARAN KOMISI / KOMITE / BADAN / DEWAN / STAF KHUSUS / TIM / PANITIA - PENGADAAN BARANG / JASA"
+  ],
+  "sumber_pengundangan": "BN.2021/No.1143, jdih.kemnaker.go.id : 14 hlm.",
+  "tahun": 2021,
+  "tanggal_berlaku": "2021-10-11",
+  "tanggal_penetapan": "2021-10-08",
+  "tanggal_pengundangan": "2021-10-11",
+  "tempat_penetapan": "Jakarta"
+}

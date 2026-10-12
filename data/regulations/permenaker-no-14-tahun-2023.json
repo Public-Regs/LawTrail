@@ -1,0 +1,32 @@
+{
+  "id": "permenaker-no-14-tahun-2023",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 14 Tahun 2023 tentang Organisasi dan Tata Kerja Politeknik Ketenagakerjaan",
+  "nomor": "14",
+  "pembanding": null,
+  "primer": {
+    "id_situs": 282477,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/341435/Permenaker%20Nomor%2014%20Tahun%202023.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/282477/permenaker-no-14-tahun-2023"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-13-tahun-2017",
+      "target_title": "Permenaker No. 13 Tahun 2017",
+      "target_url": "https://peraturan.bpk.go.id/Details/146244/permenaker-no-13-tahun-2017",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "STRUKTUR ORGANISASI"
+  ],
+  "sumber_pengundangan": "BN 2023 (1007); 12 hlm",
+  "tahun": 2023,
+  "tanggal_berlaku": "2023-12-18",
+  "tanggal_penetapan": "2023-12-14",
+  "tanggal_pengundangan": "2023-12-18",
+  "tempat_penetapan": "Jakarta"
+}

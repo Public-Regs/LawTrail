@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-20-tahun-2017",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 20 Tahun 2017 tentang Pelaksanaan Dekonsentrasi Tahun Anggaran 2018",
+  "nomor": "20",
+  "pembanding": {
+    "id_situs": 1520,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/1520/peraturan-menteri-ketenagakerjaan-nomor-20-tahun-2017"
+  },
+  "primer": {
+    "id_situs": 146275,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/252449/Kemnaker%20No.%2020%20Tahun%202017.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/146275/permenaker-no-20-tahun-2017"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "APBD - APBN - OTONOMI DAERAH DAN PEMERINTAH DAERAH - PENGELOLAAN KEUANGAN NEGARA / DAERAH"
+  ],
+  "sumber_pengundangan": "BN.2017/No.1629, jdih.kemnaker.go.id : 6 hlm.",
+  "tahun": 2017,
+  "tanggal_berlaku": "2018-01-01",
+  "tanggal_penetapan": "2017-11-15",
+  "tanggal_pengundangan": "2017-11-16",
+  "tempat_penetapan": "Jakarta"
+}

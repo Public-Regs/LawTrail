@@ -1,0 +1,38 @@
+{
+  "id": "permenaker-no-11-tahun-2024",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 11 Tahun 2024 tentang Pakaian Dinas Pejabat Fungsional Pengawas Ketenagakerjaan",
+  "nomor": "11",
+  "pembanding": {
+    "id_situs": 2589,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2589/peraturan-menteri-ketenagakerjaan-nomor-11-tahun-2024"
+  },
+  "primer": {
+    "id_situs": 309823,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/370370/Permenaker%20Nomor%2011%20Tahun%202024.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/309823/permenaker-no-11-tahun-2024"
+  },
+  "relations": [
+    {
+      "sumber": "bpk",
+      "target_id": "permenaker-no-9-tahun-2015",
+      "target_title": "Permenaker No. 9 Tahun 2015",
+      "target_url": "https://peraturan.bpk.go.id/Details/145980/permenaker-no-9-tahun-2015",
+      "type": "mencabut"
+    }
+  ],
+  "status": "Berlaku",
+  "subjek": [
+    "PAKAIAN DINAS"
+  ],
+  "sumber_pengundangan": "BN 2024 (821); 36 hlm",
+  "tahun": 2024,
+  "tanggal_berlaku": "2024-11-08",
+  "tanggal_penetapan": "2024-11-05",
+  "tanggal_pengundangan": "2024-11-08",
+  "tempat_penetapan": "Jakarta"
+}

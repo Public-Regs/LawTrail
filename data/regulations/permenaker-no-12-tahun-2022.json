@@ -1,0 +1,30 @@
+{
+  "id": "permenaker-no-12-tahun-2022",
+  "jenis": "Peraturan Menteri Ketenagakerjaan",
+  "judul": "Peraturan Menteri Ketenagakerjaan  Nomor 12 Tahun 2022 tentang Pakaian Dinas Pejabat Fungsional Mediator Hubungan Industrial",
+  "nomor": "12",
+  "pembanding": {
+    "id_situs": 2224,
+    "situs": "jdih.kemnaker.go.id",
+    "status": "Berlaku",
+    "status_cocok": true,
+    "url": "https://jdih.kemnaker.go.id/peraturan/detail/2224/peraturan-menteri-ketenagakerjaan-nomor-12-tahun-2022"
+  },
+  "primer": {
+    "id_situs": 231406,
+    "pdf_url": "https://peraturan.bpk.go.id/Download/264904/Permenaker%20Nomor%2012%20Tahun%202022.pdf",
+    "situs": "peraturan.bpk.go.id",
+    "url": "https://peraturan.bpk.go.id/Details/231406/permenaker-no-12-tahun-2022"
+  },
+  "relations": [],
+  "status": "Berlaku",
+  "subjek": [
+    "KEPEGAWAIAN, APARATUR NEGARA"
+  ],
+  "sumber_pengundangan": "BN.2022/No.897, peraturan.go.id: 9 hlm.",
+  "tahun": 2022,
+  "tanggal_berlaku": "2022-09-13",
+  "tanggal_penetapan": "2022-09-08",
+  "tanggal_pengundangan": "2022-09-13",
+  "tempat_penetapan": "Jakarta"
+}
